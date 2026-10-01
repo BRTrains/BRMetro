@@ -1,0 +1,34 @@
+model_life: 0
+
+info:
+  identifier: lu_1996
+  name: 'London Underground 1996 Stock'
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 210
+  length: 8
+  power: 2500
+  speed: 62
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  track_type:
+    - FOURTH
+
+cargo: passenger
+
+dates:
+  introduction_date: 1996-01-01
+
+profiles:
+  - identifier: '1996_6'
+    name: 6-Car
+    num_vehicles: 6
+    capacity: 141
+    sprite_override: [1, 2, 2, 2, 2, 3]
+
+liveries:
+  - name: 'London Underground'
+    special_tags: [operator/London Underground]

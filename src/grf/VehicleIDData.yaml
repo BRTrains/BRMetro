@@ -46033,3 +46033,895 @@ variants:
       - {SILVER}6-car{BLACK} - {GOLD}Pre-refurb TfL
     str_d78_standard_pre_refurb_tfl_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}Pre-refurb
       TfL'
+- id: 1058
+  vehicle: lu_1986
+  profile: '1986_2'
+  livery: london underground - green (experimental)
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1058_lu_1986_1986_2_london_underground___green__experimental__train_v2.gnml
+  identifier: lu_1986_1986_2_london_underground___green__experimental__train_v2
+  name_string: str_lu_1986_1986_2_london_underground___green__experimental__train_v2_name
+  strings:
+    str_lu_1986_1986_2_london_underground___green__experimental__train_v2_name: London
+      Underground 1986 Stock - {SILVER}2-car{BLACK} - {GOLD}London Underground - Green
+      Experimental
+    str_lu_1986_1986_2_london_underground___green__experimental__train_v2_group_name: London
+      Underground 1986 Stock - {SILVER}2-car{BLACK} - {GOLD}London Underground - Green
+      Experimental
+    str_lu_1986_1986_2_london_underground___green__experimental__train_v2_nested_name: '{SILVER}2-car{BLACK}
+      - {GOLD}London Underground - Green Experimental'
+- id: 1059
+  vehicle: lu_1986
+  profile: '1986_2'
+  livery: london underground - red (experimental)
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1059_lu_1986_1986_2_london_underground___red__experimental__train_v2.gnml
+  identifier: lu_1986_1986_2_london_underground___red__experimental__train_v2
+  name_string: str_lu_1986_1986_2_london_underground___red__experimental__train_v2_name
+  strings:
+    str_lu_1986_1986_2_london_underground___red__experimental__train_v2_name: London
+      Underground 1986 Stock - {SILVER}2-car{BLACK} - {GOLD}London Underground - Red
+      Experimental
+    str_lu_1986_1986_2_london_underground___red__experimental__train_v2_group_name: London
+      Underground 1986 Stock - {SILVER}2-car{BLACK} - {GOLD}London Underground - Red
+      Experimental
+    str_lu_1986_1986_2_london_underground___red__experimental__train_v2_nested_name: '{SILVER}2-car{BLACK}
+      - {GOLD}London Underground - Red Experimental'
+- id: 1060
+  vehicle: lu_1986
+  profile: '1986_2'
+  livery: london underground - blue (experimental)
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 2
+    lengths:
+    - 8
+    - 8
+  archive: generated_variants/1060_lu_1986_1986_2_london_underground___blue__experimental__train_v2.gnml
+  identifier: lu_1986_1986_2_london_underground___blue__experimental__train_v2
+  name_string: str_lu_1986_1986_2_london_underground___blue__experimental__train_v2_name
+  strings:
+    str_lu_1986_1986_2_london_underground___blue__experimental__train_v2_name: London
+      Underground 1986 Stock - {SILVER}2-car{BLACK} - {GOLD}London Underground - Blue
+      Experimental
+    str_lu_1986_1986_2_london_underground___blue__experimental__train_v2_group_name: London
+      Underground 1986 Stock - {SILVER}2-car{BLACK} - {GOLD}London Underground - Blue
+      Experimental
+    str_lu_1986_1986_2_london_underground___blue__experimental__train_v2_nested_name: '{SILVER}2-car{BLACK}
+      - {GOLD}London Underground - Blue Experimental'
+- id: 1061
+  vehicle: br_555
+  profile: default
+  livery: tyne and wear metro
+  vehicle_type: train
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1061_br_555_default_tyne_and_wear_metro_train_v3.gnml
+  identifier: br_555_default_tyne_and_wear_metro_train_v3
+  name_string: str_br_555_default_tyne_and_wear_metro_train_v3_name
+  strings:
+    str_br_555_default_tyne_and_wear_metro_train_v3_name: Class 555 "Metro" - {SILVER}5-car{BLACK}
+      - {GOLD}Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v3_group_name: Class 555 "Metro"
+      - {SILVER}5-car{BLACK} - {GOLD}Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v3_nested_name: '{SILVER}5-car{BLACK}
+      - {GOLD}Tyne and Wear Metro'
+- id: 1062
+  vehicle: br_555
+  profile: default
+  livery: tyne and wear metro
+  vehicle_type: tram
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1062_br_555_default_tyne_and_wear_metro_tram_v3.gnml
+  identifier: br_555_default_tyne_and_wear_metro_tram_v3
+  name_string: str_br_555_default_tyne_and_wear_metro_tram_v3_name
+  strings:
+    str_br_555_default_tyne_and_wear_metro_train_v3_group_name: Class 555 "Metro"
+      - {SILVER}5-car{BLACK} - {GOLD}Tyne and Wear Metro
+    str_br_555_default_tyne_and_wear_metro_train_v3_nested_name: '{SILVER}5-car{BLACK}
+      - {GOLD}Tyne and Wear Metro'
+    str_br_555_default_tyne_and_wear_metro_tram_v3_name: Class 555 "Metro" - {SILVER}5-car{BLACK}
+      - {GOLD}Tyne and Wear Metro
+- id: 1063
+  vehicle: lu_1967
+  profile: '1967_8'
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1063_lu_1967_1967_8_london_underground_train_v2.gnml
+  identifier: lu_1967_1967_8_london_underground_train_v2
+  name_string: str_lu_1967_1967_8_london_underground_train_v2_name
+  strings:
+    str_lu_1967_1967_8_london_underground_train_v2_name: London Underground 1967 Stock
+      - {SILVER}8-car{BLACK} - {GOLD}London Underground
+    str_lu_1967_1967_8_london_underground_train_v2_group_name: London Underground
+      1967 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground
+    str_lu_1967_1967_8_london_underground_train_v2_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground'
+- id: 1064
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - yellow cab end
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1064_br_398_default_transport_for_wales___yellow_cab_end_train_v2.gnml
+  identifier: br_398_default_transport_for_wales___yellow_cab_end_train_v2
+  name_string: str_br_398_default_transport_for_wales___yellow_cab_end_train_v2_name
+  strings:
+    str_br_398_default_transport_for_wales___yellow_cab_end_train_v2_name: Class 398
+      "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab End
+    str_br_398_default_transport_for_wales___yellow_cab_end_train_v2_group_name: Class
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab
+      End
+    str_br_398_default_transport_for_wales___yellow_cab_end_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Transport for Wales - Yellow Cab End'
+- id: 1065
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - yellow cab end
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1065_br_398_default_transport_for_wales___yellow_cab_end_tram_v2.gnml
+  identifier: br_398_default_transport_for_wales___yellow_cab_end_tram_v2
+  name_string: str_br_398_default_transport_for_wales___yellow_cab_end_tram_v2_name
+  strings:
+    str_br_398_default_transport_for_wales___yellow_cab_end_train_v2_group_name: Class
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab
+      End
+    str_br_398_default_transport_for_wales___yellow_cab_end_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Transport for Wales - Yellow Cab End'
+    str_br_398_default_transport_for_wales___yellow_cab_end_tram_v2_name: Class 398
+      "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Yellow Cab End
+- id: 1066
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - grey cab end
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1066_br_398_default_transport_for_wales___grey_cab_end_train_v2.gnml
+  identifier: br_398_default_transport_for_wales___grey_cab_end_train_v2
+  name_string: str_br_398_default_transport_for_wales___grey_cab_end_train_v2_name
+  strings:
+    str_br_398_default_transport_for_wales___grey_cab_end_train_v2_name: Class 398
+      "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab End
+    str_br_398_default_transport_for_wales___grey_cab_end_train_v2_group_name: Class
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab
+      End
+    str_br_398_default_transport_for_wales___grey_cab_end_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Transport for Wales - Grey Cab End'
+- id: 1067
+  vehicle: br_398
+  profile: default
+  livery: transport for wales - grey cab end
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1067_br_398_default_transport_for_wales___grey_cab_end_tram_v2.gnml
+  identifier: br_398_default_transport_for_wales___grey_cab_end_tram_v2
+  name_string: str_br_398_default_transport_for_wales___grey_cab_end_tram_v2_name
+  strings:
+    str_br_398_default_transport_for_wales___grey_cab_end_train_v2_group_name: Class
+      398 "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab
+      End
+    str_br_398_default_transport_for_wales___grey_cab_end_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Transport for Wales - Grey Cab End'
+    str_br_398_default_transport_for_wales___grey_cab_end_tram_v2_name: Class 398
+      "Citylink" - {SILVER}3-car{BLACK} - {GOLD}Transport for Wales - Grey Cab End
+- id: 1068
+  vehicle: lu_1996
+  profile: '1996_6'
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1068_lu_1996_1996_6_london_underground_train_v2.gnml
+  identifier: lu_1996_1996_6_london_underground_train_v2
+  name_string: str_lu_1996_1996_6_london_underground_train_v2_name
+  strings:
+    str_lu_1996_1996_6_london_underground_train_v2_name: London Underground 1996 Stock
+      - {SILVER}6-car{BLACK} - {GOLD}London Underground
+    str_lu_1996_1996_6_london_underground_train_v2_group_name: London Underground
+      1996 Stock - {SILVER}6-car{BLACK} - {GOLD}London Underground
+    str_lu_1996_1996_6_london_underground_train_v2_nested_name: '{SILVER}6-car{BLACK}
+      - {GOLD}London Underground'
+- id: 1069
+  vehicle: lu_1938
+  profile: default
+  livery: london underground (red roof)
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1069_lu_1938_default_london_underground__red_roof__train_v2.gnml
+  identifier: lu_1938_default_london_underground__red_roof__train_v2
+  name_string: str_lu_1938_default_london_underground__red_roof__train_v2_name
+  strings:
+    str_lu_1938_default_london_underground__red_roof__train_v2_name: London Underground
+      1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Red Roof
+    str_lu_1938_default_london_underground__red_roof__train_v2_group_name: London
+      Underground 1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Red
+      Roof
+    str_lu_1938_default_london_underground__red_roof__train_v2_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground Red Roof'
+- id: 1070
+  vehicle: lu_1938
+  profile: default
+  livery: london underground (grey roof)
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1070_lu_1938_default_london_underground__grey_roof__train_v2.gnml
+  identifier: lu_1938_default_london_underground__grey_roof__train_v2
+  name_string: str_lu_1938_default_london_underground__grey_roof__train_v2_name
+  strings:
+    str_lu_1938_default_london_underground__grey_roof__train_v2_name: London Underground
+      1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Grey Roof
+    str_lu_1938_default_london_underground__grey_roof__train_v2_group_name: London
+      Underground 1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Grey
+      Roof
+    str_lu_1938_default_london_underground__grey_roof__train_v2_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground Grey Roof'
+- id: 1071
+  vehicle: br_777
+  profile: default
+  livery: merseyrail
+  vehicle_type: train
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 121
+    articulated_count: 4
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1071_br_777_default_merseyrail_train_v3.gnml
+  identifier: br_777_default_merseyrail_train_v3
+  name_string: str_br_777_default_merseyrail_train_v3_name
+  strings:
+    str_br_777_default_merseyrail_train_v3_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
+      - {GOLD}Merseyrail
+    str_br_777_default_merseyrail_train_v3_group_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
+      - {GOLD}Merseyrail
+    str_br_777_default_merseyrail_train_v3_nested_name: '{SILVER}4-car{BLACK} - {GOLD}Merseyrail'
+- id: 1072
+  vehicle: br_777
+  profile: default
+  livery: merseyrail
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 121
+    articulated_count: 4
+    lengths:
+    - 7
+    - 6
+    - 6
+    - 7
+  archive: generated_variants/1072_br_777_default_merseyrail_tram_v2.gnml
+  identifier: br_777_default_merseyrail_tram_v2
+  name_string: str_br_777_default_merseyrail_tram_v2_name
+  strings:
+    str_br_777_default_merseyrail_train_v3_group_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
+      - {GOLD}Merseyrail
+    str_br_777_default_merseyrail_train_v3_nested_name: '{SILVER}4-car{BLACK} - {GOLD}Merseyrail'
+    str_br_777_default_merseyrail_tram_v2_name: Class 777 "Metro" - {SILVER}4-car{BLACK}
+      - {GOLD}Merseyrail
+- id: 1073
+  vehicle: br_399
+  profile: default
+  livery: stagecoach blue
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1073_br_399_default_stagecoach_blue_train_v2.gnml
+  identifier: br_399_default_stagecoach_blue_train_v2
+  name_string: str_br_399_default_stagecoach_blue_train_v2_name
+  strings:
+    str_br_399_default_stagecoach_blue_train_v2_name: Class 399 "Sheffield Citylink"
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_br_399_default_stagecoach_blue_train_v2_group_name: Class 399 "Sheffield Citylink"
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_br_399_default_stagecoach_blue_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
+- id: 1074
+  vehicle: br_399
+  profile: default
+  livery: stagecoach blue
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 78
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1074_br_399_default_stagecoach_blue_tram_v2.gnml
+  identifier: br_399_default_stagecoach_blue_tram_v2
+  name_string: str_br_399_default_stagecoach_blue_tram_v2_name
+  strings:
+    str_br_399_default_stagecoach_blue_train_v2_group_name: Class 399 "Sheffield Citylink"
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_br_399_default_stagecoach_blue_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
+    str_br_399_default_stagecoach_blue_tram_v2_name: Class 399 "Sheffield Citylink"
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+- id: 1075
+  vehicle: lu_s7s8
+  profile: s7
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 7
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1075_lu_s7s8_s7_london_underground_train_v2.gnml
+  identifier: lu_s7s8_s7_london_underground_train_v2
+  name_string: str_lu_s7s8_s7_london_underground_train_v2_name
+  strings:
+    str_lu_s7s8_s7_london_underground_train_v2_name: London Underground S7/S8 Stock
+      - {SILVER}7-car{BLACK} - {GOLD}London Underground
+    str_lu_s7s8_s7_london_underground_train_v2_group_name: London Underground S7/S8
+      Stock - {SILVER}7-car{BLACK} - {GOLD}London Underground
+    str_lu_s7s8_s7_london_underground_train_v2_nested_name: '{SILVER}7-car{BLACK}
+      - {GOLD}London Underground'
+- id: 1076
+  vehicle: lu_s7s8
+  profile: s8
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1076_lu_s7s8_s8_london_underground_train_v2.gnml
+  identifier: lu_s7s8_s8_london_underground_train_v2
+  name_string: str_lu_s7s8_s8_london_underground_train_v2_name
+  strings:
+    str_lu_1967_1967_8_london_underground_train_v2_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground'
+    str_lu_s7s8_s8_london_underground_train_v2_name: London Underground S7/S8 Stock
+      - {SILVER}8-car{BLACK} - {GOLD}London Underground
+    str_lu_s7s8_s8_london_underground_train_v2_group_name: London Underground S7/S8
+      Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground
+- id: 1077
+  vehicle: lu_2009
+  profile: '2009_8'
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1077_lu_2009_2009_8_london_underground_train_v2.gnml
+  identifier: lu_2009_2009_8_london_underground_train_v2
+  name_string: str_lu_2009_2009_8_london_underground_train_v2_name
+  strings:
+    str_lu_1967_1967_8_london_underground_train_v2_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground'
+    str_lu_2009_2009_8_london_underground_train_v2_name: London Underground 2009 Stock
+      - {SILVER}8-car{BLACK} - {GOLD}London Underground
+    str_lu_2009_2009_8_london_underground_train_v2_group_name: London Underground
+      2009 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground
+- id: 1078
+  vehicle: lu_1995
+  profile: '1995_6'
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1078_lu_1995_1995_6_london_underground_train_v2.gnml
+  identifier: lu_1995_1995_6_london_underground_train_v2
+  name_string: str_lu_1995_1995_6_london_underground_train_v2_name
+  strings:
+    str_lu_1996_1996_6_london_underground_train_v2_nested_name: '{SILVER}6-car{BLACK}
+      - {GOLD}London Underground'
+    str_lu_1995_1995_6_london_underground_train_v2_name: London Underground 1995 Stock
+      - {SILVER}6-car{BLACK} - {GOLD}London Underground
+    str_lu_1995_1995_6_london_underground_train_v2_group_name: London Underground
+      1995 Stock - {SILVER}6-car{BLACK} - {GOLD}London Underground
+- id: 1079
+  vehicle: br_139
+  profile: default
+  livery: london midland
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1079_br_139_default_london_midland_train_v2.gnml
+  identifier: br_139_default_london_midland_train_v2
+  name_string: str_br_139_default_london_midland_train_v2_name
+  strings:
+    str_br_139_default_london_midland_train_v2_name: Class 139 "Parry People Mover"
+      - {SILVER}1-car{BLACK} - {GOLD}London Midland
+    str_br_139_default_london_midland_train_v2_group_name: Class 139 "Parry People
+      Mover" - {SILVER}1-car{BLACK} - {GOLD}London Midland
+    str_br_139_default_london_midland_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}London Midland'
+- id: 1080
+  vehicle: br_139
+  profile: default
+  livery: london midland
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1080_br_139_default_london_midland_tram_v2.gnml
+  identifier: br_139_default_london_midland_tram_v2
+  name_string: str_br_139_default_london_midland_tram_v2_name
+  strings:
+    str_br_139_default_london_midland_train_v2_group_name: Class 139 "Parry People
+      Mover" - {SILVER}1-car{BLACK} - {GOLD}London Midland
+    str_br_139_default_london_midland_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}London Midland'
+    str_br_139_default_london_midland_tram_v2_name: Class 139 "Parry People Mover"
+      - {SILVER}1-car{BLACK} - {GOLD}London Midland
+- id: 1081
+  vehicle: br_139
+  profile: default
+  livery: west midlands railway
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1081_br_139_default_west_midlands_railway_train_v2.gnml
+  identifier: br_139_default_west_midlands_railway_train_v2
+  name_string: str_br_139_default_west_midlands_railway_train_v2_name
+  strings:
+    str_br_139_default_west_midlands_railway_train_v2_name: Class 139 "Parry People
+      Mover" - {SILVER}1-car{BLACK} - {GOLD}West Midlands Railway
+    str_br_139_default_west_midlands_railway_train_v2_group_name: Class 139 "Parry
+      People Mover" - {SILVER}1-car{BLACK} - {GOLD}West Midlands Railway
+    str_br_139_default_west_midlands_railway_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}West Midlands Railway'
+- id: 1082
+  vehicle: br_139
+  profile: default
+  livery: west midlands railway
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1082_br_139_default_west_midlands_railway_tram_v2.gnml
+  identifier: br_139_default_west_midlands_railway_tram_v2
+  name_string: str_br_139_default_west_midlands_railway_tram_v2_name
+  strings:
+    str_br_139_default_west_midlands_railway_train_v2_group_name: Class 139 "Parry
+      People Mover" - {SILVER}1-car{BLACK} - {GOLD}West Midlands Railway
+    str_br_139_default_west_midlands_railway_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}West Midlands Railway'
+    str_br_139_default_west_midlands_railway_tram_v2_name: Class 139 "Parry People
+      Mover" - {SILVER}1-car{BLACK} - {GOLD}West Midlands Railway
+- id: 1083
+  vehicle: br_139
+  profile: default
+  livery: parry people mover - prototype
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1083_br_139_default_parry_people_mover___prototype_train_v2.gnml
+  identifier: br_139_default_parry_people_mover___prototype_train_v2
+  name_string: str_br_139_default_parry_people_mover___prototype_train_v2_name
+  strings:
+    str_br_139_default_parry_people_mover___prototype_train_v2_name: Class 139 "Parry
+      People Mover" - {SILVER}1-car{BLACK} - {GOLD}Parry People Mover - Prototype
+    str_br_139_default_parry_people_mover___prototype_train_v2_group_name: Class 139
+      "Parry People Mover" - {SILVER}1-car{BLACK} - {GOLD}Parry People Mover - Prototype
+    str_br_139_default_parry_people_mover___prototype_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}Parry People Mover - Prototype'
+- id: 1084
+  vehicle: br_139
+  profile: default
+  livery: parry people mover - prototype
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1084_br_139_default_parry_people_mover___prototype_tram_v2.gnml
+  identifier: br_139_default_parry_people_mover___prototype_tram_v2
+  name_string: str_br_139_default_parry_people_mover___prototype_tram_v2_name
+  strings:
+    str_br_139_default_parry_people_mover___prototype_train_v2_group_name: Class 139
+      "Parry People Mover" - {SILVER}1-car{BLACK} - {GOLD}Parry People Mover - Prototype
+    str_br_139_default_parry_people_mover___prototype_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}Parry People Mover - Prototype'
+    str_br_139_default_parry_people_mover___prototype_tram_v2_name: Class 139 "Parry
+      People Mover" - {SILVER}1-car{BLACK} - {GOLD}Parry People Mover - Prototype
+- id: 1085
+  vehicle: br_139
+  profile: default
+  livery: bristol electric - prototype
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1085_br_139_default_bristol_electric___prototype_train_v2.gnml
+  identifier: br_139_default_bristol_electric___prototype_train_v2
+  name_string: str_br_139_default_bristol_electric___prototype_train_v2_name
+  strings:
+    str_br_139_default_bristol_electric___prototype_train_v2_name: Class 139 "Parry
+      People Mover" - {SILVER}1-car{BLACK} - {GOLD}Bristol Electric - Prototype
+    str_br_139_default_bristol_electric___prototype_train_v2_group_name: Class 139
+      "Parry People Mover" - {SILVER}1-car{BLACK} - {GOLD}Bristol Electric - Prototype
+    str_br_139_default_bristol_electric___prototype_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}Bristol Electric - Prototype'
+- id: 1086
+  vehicle: br_139
+  profile: default
+  livery: bristol electric - prototype
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1086_br_139_default_bristol_electric___prototype_tram_v2.gnml
+  identifier: br_139_default_bristol_electric___prototype_tram_v2
+  name_string: str_br_139_default_bristol_electric___prototype_tram_v2_name
+  strings:
+    str_br_139_default_bristol_electric___prototype_train_v2_group_name: Class 139
+      "Parry People Mover" - {SILVER}1-car{BLACK} - {GOLD}Bristol Electric - Prototype
+    str_br_139_default_bristol_electric___prototype_train_v2_nested_name: '{SILVER}1-car{BLACK}
+      - {GOLD}Bristol Electric - Prototype'
+    str_br_139_default_bristol_electric___prototype_tram_v2_name: Class 139 "Parry
+      People Mover" - {SILVER}1-car{BLACK} - {GOLD}Bristol Electric - Prototype
+- id: 1087
+  vehicle: br_139
+  profile: default
+  livery: go coperative
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1087_br_139_default_go_coperative_train_v2.gnml
+  identifier: br_139_default_go_coperative_train_v2
+  name_string: str_br_139_default_go_coperative_train_v2_name
+  strings:
+    str_br_139_default_go_coperative_train_v2_name: Class 139 "Parry People Mover"
+      - {SILVER}1-car{BLACK} - {GOLD}Go Coperative
+    str_br_139_default_go_coperative_train_v2_group_name: Class 139 "Parry People
+      Mover" - {SILVER}1-car{BLACK} - {GOLD}Go Coperative
+    str_br_139_default_go_coperative_train_v2_nested_name: '{SILVER}1-car{BLACK} -
+      {GOLD}Go Coperative'
+- id: 1088
+  vehicle: br_139
+  profile: default
+  livery: go coperative
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 50
+    articulated_count: 1
+    lengths:
+    - 5
+  archive: generated_variants/1088_br_139_default_go_coperative_tram_v2.gnml
+  identifier: br_139_default_go_coperative_tram_v2
+  name_string: str_br_139_default_go_coperative_tram_v2_name
+  strings:
+    str_br_139_default_go_coperative_train_v2_group_name: Class 139 "Parry People
+      Mover" - {SILVER}1-car{BLACK} - {GOLD}Go Coperative
+    str_br_139_default_go_coperative_train_v2_nested_name: '{SILVER}1-car{BLACK} -
+      {GOLD}Go Coperative'
+    str_br_139_default_go_coperative_tram_v2_name: Class 139 "Parry People Mover"
+      - {SILVER}1-car{BLACK} - {GOLD}Go Coperative
+- id: 1089
+  vehicle: dlr_p86
+  profile: default
+  livery: dlr blue
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 84
+    articulated_count: 4
+    lengths:
+    - 5
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1089_dlr_p86_default_dlr_blue_tram_v2.gnml
+  identifier: dlr_p86_default_dlr_blue_tram_v2
+  name_string: str_dlr_p86_default_dlr_blue_tram_v2_name
+  strings:
+    str_b90_double_dlr_blue_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
+    str_dlr_p86_default_dlr_blue_tram_v2_name: Docklands Light Railway P86 - {SILVER}4-car{BLACK}
+      - {GOLD}DLR Blue
+    str_dlr_p86_default_dlr_blue_tram_v2_group_name: Docklands Light Railway P86 -
+      {SILVER}4-car{BLACK} - {GOLD}DLR Blue
+- id: 1090
+  vehicle: lu_2024
+  profile: '2024_9'
+  livery: london underground
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 119
+    articulated_count: 9
+    lengths:
+    - 5
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 5
+  archive: generated_variants/1090_lu_2024_2024_9_london_underground_train_v2.gnml
+  identifier: lu_2024_2024_9_london_underground_train_v2
+  name_string: str_lu_2024_2024_9_london_underground_train_v2_name
+  strings:
+    str_lu_2024_2024_9_london_underground_train_v2_name: London Underground 2024 Stock
+      - {SILVER}9-car{BLACK} - {GOLD}London Underground
+    str_lu_2024_2024_9_london_underground_train_v2_group_name: London Underground
+      2024 Stock - {SILVER}9-car{BLACK} - {GOLD}London Underground
+    str_lu_2024_2024_9_london_underground_train_v2_nested_name: '{SILVER}9-car{BLACK}
+      - {GOLD}London Underground'

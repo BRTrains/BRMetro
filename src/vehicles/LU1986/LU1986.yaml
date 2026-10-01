@@ -1,0 +1,41 @@
+model_life: 0
+
+info:
+  identifier: lu_1986
+  name: 'London Underground 1986 Stock'
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 40
+  length: 8
+  power: 800
+  speed: 60
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  track_type:
+    - FOURTH
+
+cargo: passenger
+
+dates:
+  # The legacy `item_LU1986` (510) declares `date(1986,1,1)` directly.
+  introduction_date: 1986-01-01
+
+profiles:
+  - identifier: '1986_2'
+    name: 2-Car
+    num_vehicles: 2
+    capacity: 130
+
+liveries:
+  # `sw_LU1986_cargo_subtype_text` order 0..2: the drawing the subtype reads is named
+  # `_TfLGreen` (y 63/88), `_TfLRed` (y 13/38) and `_TfLBlue` (y 113/138) on
+  # `gfx/Metro/LU_1986.png`, so the sheet is packed in this order by the compositor.
+  - name: 'London Underground - Green (Experimental)'
+    special_tags: [operator/London Underground]
+  - name: 'London Underground - Red (Experimental)'
+    special_tags: [operator/London Underground]
+  - name: 'London Underground - Blue (Experimental)'
+    special_tags: [operator/London Underground]

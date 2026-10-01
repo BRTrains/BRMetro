@@ -1,0 +1,46 @@
+model_life: 0
+
+info:
+  identifier: lu_1938
+  name: 'London Underground 1938 Stock'
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  # The legacy root item (`BRTrains2/src/trains/metro/LUDeeplevel/LU1938.pnml`, `item_LU1938`
+  # 490) carries the whole-unit power and weight for the 8-car formation; its two articulated
+  # parts (`item_LU1938b` 491 / `_c` 492) declare 0 hp and 0 t. BRBuild has one item per
+  # candidate, so the root item's figures are copied as-is, like the other London Underground
+  # conversions. The 2500 hp / 197 t pair is the same boilerplate the 1967 Stock carries.
+  weight: 197
+  length: 8
+  power: 2500
+  speed: 60
+  tractive_effort: 0.08
+  power_type:
+    - electric
+  # The legacy declares `track_type: FOURTH` on the item; deep-level Tube stock.
+  track_type:
+    - FOURTH
+
+cargo: passenger
+
+dates:
+  # The legacy `item_LU1938` declares `date(1938,1,1)`.
+  introduction_date: 1938-01-01
+
+profiles:
+  - identifier: DEFAULT
+    num_vehicles: 8
+    capacity: 141
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
+
+liveries:
+  # Order is the composite's row order and the legacy's own declaration order: the sheet packs
+  # drawing a/b/c of the red-roof scheme (source y 13/39/65) then of the grey-roof scheme
+  # (source y 91/117/143). The legacy selects them with `cargo_subtype` 1 = Red Roof,
+  # 0 = Grey Roof (`sw_LU1938_cargo_subtype_text`).
+  - name: 'London Underground (Red Roof)'
+    special_tags: [operator/London Underground]
+  - name: 'London Underground (Grey Roof)'
+    special_tags: [operator/London Underground]

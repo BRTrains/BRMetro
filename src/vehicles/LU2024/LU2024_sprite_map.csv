@@ -1,0 +1,4 @@
+output_row,profile,livery,role,source_image,source_y,template,reused
+0,2024_9,London Underground,leading,/home/jon/BRTrains2/gfx/Metro/LU_2024.png,13,tmpl_train_5,false
+1,2024_9,London Underground,middle,/home/jon/BRTrains2/gfx/Metro/LU_2024.png,33,tmpl_train_4,false
+2,2024_9,London Underground,trailing,/home/jon/BRTrains2/gfx/Metro/LU_2024.png,52,tmpl_train_5,false

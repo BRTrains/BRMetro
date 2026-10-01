@@ -1,0 +1,4 @@
+output_row,profile,livery,role,source_image,source_y,template,reused
+0,1967_8,London Underground,leading,/home/jon/BRTrains2/gfx/Metro/LU_1967.png,13,template_train32px_old,false
+1,1967_8,London Underground,trailing,/home/jon/BRTrains2/gfx/Metro/LU_1967.png,38,template_train32px_old,false
+2,1967_8,London Underground,middle,/home/jon/BRTrains2/gfx/Metro/LU_1967.png,63,template_train32px_old,false

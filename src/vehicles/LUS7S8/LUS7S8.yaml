@@ -1,0 +1,44 @@
+model_life: 0
+
+info:
+  identifier: lu_s7s8
+  name: 'London Underground S7/S8 Stock'
+
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  speed: 60
+  tractive_effort: 0.08
+  length: 8
+  power_type:
+    - electric
+  track_type:
+    - FOURTH
+
+cargo: passenger
+
+dates:
+  introduction_date: 2010-04-21
+
+profiles:
+  - identifier: 'S7'
+    name: 7-Car
+    num_vehicles: 7
+    capacity: 205
+    power: 4160
+    weight: 213
+    introduction_date: 2012-04-21
+    sprite_override: [1, 2, 2, 2, 2, 2, 3]
+
+  - identifier: 'S8'
+    name: 8-Car
+    num_vehicles: 8
+    capacity: 205
+    power: 4992
+    weight: 242
+    sprite_group: 'S7'
+    sprite_override: [1, 2, 2, 2, 2, 2, 2, 3]
+
+liveries:
+  - name: 'London Underground'
+    special_tags: [operator/London Underground]
