@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "f82265dc51d34e5f02e3670271a78b60d0cf0d01",
-  "generated_at": "2026-10-01T19:38:44.660251Z",
+  "generated_at": "2026-10-01T19:48:24.836584Z",
   "liveries": [
     {
       "name": "Default",
@@ -529,6 +529,17 @@
       "vehicle_identifier": "edinburgh_urbos"
     },
     {
+      "name": "TfL",
+      "profile_restrictions": [],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "lu_c_stock_default_tfl_train_v2",
+        "lu_c_stock_default_tfl_tram"
+      ],
+      "vehicle_identifier": "lu_c_stock"
+    },
+    {
       "name": "Default",
       "profile_restrictions": [],
       "special_tags": [],
@@ -558,6 +569,28 @@
       "special_tags": [],
       "spritesheet": null,
       "variants": [
+        "lu_a_stock_default_tfl_train_v2",
+        "lu_a_stock_default_tfl_tram"
+      ],
+      "vehicle_identifier": "lu_a_stock"
+    },
+    {
+      "name": "TfL Unpainted",
+      "profile_restrictions": [],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
+        "lu_a_stock_default_tfl_unpainted_train_v2",
+        "lu_a_stock_default_tfl_unpainted_tram"
+      ],
+      "vehicle_identifier": "lu_a_stock"
+    },
+    {
+      "name": "TfL",
+      "profile_restrictions": [],
+      "special_tags": [],
+      "spritesheet": null,
+      "variants": [
         "d78_short_tfl_train",
         "d78_short_tfl_tram_v2",
         "d78_standard_tfl_train",
@@ -577,6 +610,58 @@
         "d78_standard_pre_refurb_tfl_tram_v2"
       ],
       "vehicle_identifier": "d78"
+    },
+    {
+      "name": "Metropolitan Crimson",
+      "profile_restrictions": [],
+      "special_tags": [
+        "operator/Metropolitan Railway"
+      ],
+      "spritesheet": null,
+      "variants": [
+        "metropolitan_g_class_default_metropolitan_crimson_train_v2",
+        "metropolitan_g_class_default_metropolitan_crimson_tram"
+      ],
+      "vehicle_identifier": "metropolitan_g_class"
+    },
+    {
+      "name": "Metropolitan Black",
+      "profile_restrictions": [],
+      "special_tags": [
+        "operator/Metropolitan Railway"
+      ],
+      "spritesheet": null,
+      "variants": [
+        "metropolitan_g_class_default_metropolitan_black_train_v2",
+        "metropolitan_g_class_default_metropolitan_black_tram"
+      ],
+      "vehicle_identifier": "metropolitan_g_class"
+    },
+    {
+      "name": "LNER Apple Green",
+      "profile_restrictions": [],
+      "special_tags": [
+        "operator/LNER"
+      ],
+      "spritesheet": null,
+      "variants": [
+        "metropolitan_g_class_default_lner_apple_green_train_v2",
+        "metropolitan_g_class_default_lner_apple_green_tram"
+      ],
+      "vehicle_identifier": "metropolitan_g_class"
+    },
+    {
+      "name": "LNER Black",
+      "profile_restrictions": [],
+      "special_tags": [
+        "operator/LNER"
+      ],
+      "spritesheet": null,
+      "variants": [
+        "metropolitan_g_class_default_lner_black_train_v2",
+        "metropolitan_g_class_default_lner_black_tram"
+      ],
+      "vehicle_identifier": "metropolitan_g_class"
     },
     {
       "name": "London Midland",
@@ -1752,6 +1837,43 @@
       "vehicle_identifier": "edinburgh_urbos"
     },
     {
+      "identifier": "DEFAULT",
+      "name": null,
+      "resolved": {
+        "capacity": 205,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(1970, 1, 1)",
+        "num_vehicles": 3,
+        "power": 3000,
+        "speed": 45,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ],
+        "track_type": [
+          "FOURTH"
+        ],
+        "weight": 150
+      },
+      "source_restrictions": {
+        "special_tags": [
+          "formation/3-car"
+        ],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "lu_c_stock_default_tfl_train_v2",
+        "lu_c_stock_default_tfl_tram"
+      ],
+      "vehicle_identifier": "lu_c_stock"
+    },
+    {
       "identifier": "standard",
       "name": "Standard 147",
       "resolved": {
@@ -1821,6 +1943,45 @@
         "lu_1995_1995_6_london_underground_tram"
       ],
       "vehicle_identifier": "lu_1995"
+    },
+    {
+      "identifier": "DEFAULT",
+      "name": null,
+      "resolved": {
+        "capacity": 205,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "introduction_date": "date(1961, 1, 1)",
+        "num_vehicles": 3,
+        "power": 3000,
+        "speed": 70,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ],
+        "track_type": [
+          "FOURTH"
+        ],
+        "weight": 150
+      },
+      "source_restrictions": {
+        "special_tags": [
+          "formation/3-car"
+        ],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "lu_a_stock_default_tfl_train_v2",
+        "lu_a_stock_default_tfl_tram",
+        "lu_a_stock_default_tfl_unpainted_train_v2",
+        "lu_a_stock_default_tfl_unpainted_tram"
+      ],
+      "vehicle_identifier": "lu_a_stock"
     },
     {
       "identifier": "short",
@@ -1898,6 +2059,41 @@
         "d78_standard_pre_refurb_tfl_tram_v2"
       ],
       "vehicle_identifier": "d78"
+    },
+    {
+      "identifier": "DEFAULT",
+      "name": null,
+      "resolved": {
+        "capacity": 0,
+        "cargo_classes": [],
+        "default_cargo_type": null,
+        "introduction_date": "date(1915, 1, 1)",
+        "num_vehicles": 1,
+        "power": 850,
+        "speed": 50,
+        "sprite_pattern": [
+          1
+        ],
+        "track_type": null,
+        "weight": 72.2
+      },
+      "source_restrictions": {
+        "special_tags": [],
+        "sprite_group": null
+      },
+      "sprite_group": null,
+      "spritesheet": null,
+      "variants": [
+        "metropolitan_g_class_default_metropolitan_crimson_train_v2",
+        "metropolitan_g_class_default_metropolitan_crimson_tram",
+        "metropolitan_g_class_default_metropolitan_black_train_v2",
+        "metropolitan_g_class_default_metropolitan_black_tram",
+        "metropolitan_g_class_default_lner_apple_green_train_v2",
+        "metropolitan_g_class_default_lner_apple_green_tram",
+        "metropolitan_g_class_default_lner_black_train_v2",
+        "metropolitan_g_class_default_lner_black_tram"
+      ],
+      "vehicle_identifier": "metropolitan_g_class"
     },
     {
       "identifier": "DEFAULT",
@@ -44072,6 +44268,670 @@
     },
     {
       "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "TfL"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_lu_c_stock_LUCStock_0_LUCStock_25_LUCStock_50.png"
+        },
+        "name": "spriteset_lu_c_stock_default_tfl_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1161
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUCStock/LUCStock.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 31,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 64,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 86,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 95,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 117,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 150,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_lu_c_stock_default_tfl_train_v2_0",
+          "template": "tmpl_train_8_old",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUCStock/LUCStock.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 31,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 64,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 86,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 95,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 117,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 150,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            }
+          ],
+          "source_name": "spriteset_y25",
+          "spriteset": "spriteset_lu_c_stock_default_tfl_train_v2_1",
+          "template": "tmpl_train_8_old",
+          "x": 0,
+          "y": 25
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUCStock/LUCStock.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 31,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 64,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 86,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 95,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 117,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 150,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            }
+          ],
+          "source_name": "spriteset_y50",
+          "spriteset": "spriteset_lu_c_stock_default_tfl_train_v2_2",
+          "template": "tmpl_train_8_old",
+          "x": 0,
+          "y": 50
+        }
+      ],
+      "variant": {
+        "display_name": "LU C Stock - {SILVER}3-car{BLACK} - {GOLD}TfL",
+        "graphics_emitted": true,
+        "identifier": "lu_c_stock_default_tfl_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "lu_c_stock_default_tfl_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "lu_c_stock",
+        "name": "LU C Stock"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "TfL"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_lu_c_stock_LUCStock_0_LUCStock_25_LUCStock_50.png"
+        },
+        "name": "spriteset_lu_c_stock_default_tfl_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1162
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUCStock/LUCStock.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 31,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 64,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 86,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 95,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 117,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 150,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_lu_c_stock_default_tfl_tram_0",
+          "template": "tmpl_train_8_old",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUCStock/LUCStock.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 31,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 64,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 86,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 95,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 117,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 150,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            }
+          ],
+          "source_name": "spriteset_y25",
+          "spriteset": "spriteset_lu_c_stock_default_tfl_tram_1",
+          "template": "tmpl_train_8_old",
+          "x": 0,
+          "y": 25
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUCStock/LUCStock.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 31,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 64,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 24,
+              "left_x": 86,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 95,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            },
+            {
+              "flags": [],
+              "height": 12,
+              "left_x": 117,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 32
+            },
+            {
+              "flags": [],
+              "height": 18,
+              "left_x": 150,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 21
+            }
+          ],
+          "source_name": "spriteset_y50",
+          "spriteset": "spriteset_lu_c_stock_default_tfl_tram_2",
+          "template": "tmpl_train_8_old",
+          "x": 0,
+          "y": 50
+        }
+      ],
+      "variant": {
+        "display_name": "LU C Stock - {SILVER}3-car{BLACK} - {GOLD}TfL",
+        "graphics_emitted": true,
+        "identifier": "lu_c_stock_default_tfl_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "lu_c_stock_default_tfl_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "lu_c_stock",
+        "name": "LU C Stock"
+      }
+    },
+    {
+      "formation": {
         "part_count": 1,
         "sprite_pattern": [
           1
@@ -45584,6 +46444,1334 @@
       "vehicle": {
         "identifier": "lu_1995",
         "name": "London Underground 1995 Stock"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "TfL"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_lu_a_stock_LUAStock_0_LUAStock_26_LUAStock_52.png"
+        },
+        "name": "spriteset_lu_a_stock_default_tfl_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1163
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_train_v2_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_train_v2_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_train_v2_2",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 52
+        }
+      ],
+      "variant": {
+        "display_name": "LU A Stock - {SILVER}3-car{BLACK} - {GOLD}TfL",
+        "graphics_emitted": true,
+        "identifier": "lu_a_stock_default_tfl_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "lu_a_stock_default_tfl_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "lu_a_stock",
+        "name": "LU A Stock"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "TfL"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_lu_a_stock_LUAStock_0_LUAStock_26_LUAStock_52.png"
+        },
+        "name": "spriteset_lu_a_stock_default_tfl_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1164
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_tram_0",
+          "template": "tmpl_tram_8",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y26",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_tram_1",
+          "template": "tmpl_tram_8",
+          "x": 0,
+          "y": 26
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_tram_2",
+          "template": "tmpl_tram_8",
+          "x": 0,
+          "y": 52
+        }
+      ],
+      "variant": {
+        "display_name": "LU A Stock - {SILVER}3-car{BLACK} - {GOLD}TfL",
+        "graphics_emitted": true,
+        "identifier": "lu_a_stock_default_tfl_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "lu_a_stock_default_tfl_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "lu_a_stock",
+        "name": "LU A Stock"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "TfL Unpainted"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_lu_a_stock_LUAStock_78_LUAStock_104_LUAStock_130.png"
+        },
+        "name": "spriteset_lu_a_stock_default_tfl_unpainted_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1165
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y78",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_unpainted_train_v2_0",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 78
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y104",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_unpainted_train_v2_1",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 104
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y130",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_unpainted_train_v2_2",
+          "template": "tmpl_train_8",
+          "x": 0,
+          "y": 130
+        }
+      ],
+      "variant": {
+        "display_name": "LU A Stock - {SILVER}3-car{BLACK} - {GOLD}TfL Unpainted",
+        "graphics_emitted": true,
+        "identifier": "lu_a_stock_default_tfl_unpainted_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "lu_a_stock_default_tfl_unpainted_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "lu_a_stock",
+        "name": "LU A Stock"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 3,
+        "sprite_pattern": [
+          1,
+          2,
+          3
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "TfL Unpainted"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_lu_a_stock_LUAStock_78_LUAStock_104_LUAStock_130.png"
+        },
+        "name": "spriteset_lu_a_stock_default_tfl_unpainted_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1166
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y78",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_unpainted_tram_0",
+          "template": "tmpl_tram_8",
+          "x": 0,
+          "y": 78
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y104",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_unpainted_tram_1",
+          "template": "tmpl_tram_8",
+          "x": 0,
+          "y": 104
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/LUAStock/LUAStock.png"
+          },
+          "length": 8,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 32,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 66,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 25,
+              "left_x": 89,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 98,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 121,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 33
+            },
+            {
+              "flags": [],
+              "height": 19,
+              "left_x": 155,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 22
+            }
+          ],
+          "source_name": "spriteset_y130",
+          "spriteset": "spriteset_lu_a_stock_default_tfl_unpainted_tram_2",
+          "template": "tmpl_tram_8",
+          "x": 0,
+          "y": 130
+        }
+      ],
+      "variant": {
+        "display_name": "LU A Stock - {SILVER}3-car{BLACK} - {GOLD}TfL Unpainted",
+        "graphics_emitted": true,
+        "identifier": "lu_a_stock_default_tfl_unpainted_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "lu_a_stock_default_tfl_unpainted_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "lu_a_stock",
+        "name": "LU A Stock"
       }
     },
     {
@@ -49296,6 +51484,1254 @@
       "vehicle": {
         "identifier": "d78",
         "name": "London Underground D78 Stock"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Metropolitan Crimson"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_0.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_metropolitan_crimson_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1167
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_metropolitan_g_class_default_metropolitan_crimson_train_v2_0",
+          "template": "tmpl_train_6",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Crimson",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_metropolitan_crimson_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_metropolitan_crimson_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Metropolitan Crimson"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_0.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_metropolitan_crimson_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1168
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_metropolitan_g_class_default_metropolitan_crimson_tram_0",
+          "template": "tmpl_tram_6",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Crimson",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_metropolitan_crimson_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_metropolitan_crimson_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Metropolitan Black"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_22.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_metropolitan_black_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1169
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y22",
+          "spriteset": "spriteset_metropolitan_g_class_default_metropolitan_black_train_v2_0",
+          "template": "tmpl_train_6",
+          "x": 0,
+          "y": 22
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Black",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_metropolitan_black_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_metropolitan_black_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Metropolitan Black"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_22.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_metropolitan_black_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1170
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y22",
+          "spriteset": "spriteset_metropolitan_g_class_default_metropolitan_black_tram_0",
+          "template": "tmpl_tram_6",
+          "x": 0,
+          "y": 22
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Black",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_metropolitan_black_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_metropolitan_black_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "LNER Apple Green"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_44.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_lner_apple_green_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1171
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y44",
+          "spriteset": "spriteset_metropolitan_g_class_default_lner_apple_green_train_v2_0",
+          "template": "tmpl_train_6",
+          "x": 0,
+          "y": 44
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Apple Green",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_lner_apple_green_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_lner_apple_green_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "LNER Apple Green"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_44.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_lner_apple_green_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1172
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y44",
+          "spriteset": "spriteset_metropolitan_g_class_default_lner_apple_green_tram_0",
+          "template": "tmpl_tram_6",
+          "x": 0,
+          "y": 44
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Apple Green",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_lner_apple_green_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_lner_apple_green_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "LNER Black"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_66.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_lner_black_train_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1173
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y66",
+          "spriteset": "spriteset_metropolitan_g_class_default_lner_black_train_v2_0",
+          "template": "tmpl_train_6",
+          "x": 0,
+          "y": 66
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_lner_black_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_lner_black_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 1,
+        "sprite_pattern": [
+          1
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "LNER Black"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": null
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_metropolitan_g_class_MetropolitanG_66.png"
+        },
+        "name": "spriteset_metropolitan_g_class_default_lner_black_tram_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 1,
+        "id": 1174
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+          },
+          "length": 6,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 28,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 54,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 21,
+              "left_x": 73,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 82,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 101,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 25
+            },
+            {
+              "flags": [],
+              "height": 17,
+              "left_x": 127,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 18
+            }
+          ],
+          "source_name": "spriteset_y66",
+          "spriteset": "spriteset_metropolitan_g_class_default_lner_black_tram_0",
+          "template": "tmpl_tram_6",
+          "x": 0,
+          "y": 66
+        }
+      ],
+      "variant": {
+        "display_name": "Metropolitan Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black",
+        "graphics_emitted": true,
+        "identifier": "metropolitan_g_class_default_lner_black_tram",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "metropolitan_g_class_default_lner_black_tram.gnml"
+        },
+        "vehicle_type": "TRAM"
+      },
+      "vehicle": {
+        "identifier": "metropolitan_g_class",
+        "name": "Metropolitan Railway G Class 0-6-4T"
       }
     },
     {
@@ -60317,6 +63753,43 @@
     },
     {
       "based_on": "",
+      "identifier": "lu_c_stock",
+      "introduction_date": "date(1970, 1, 1)",
+      "name": "LU C Stock",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/vehicles/LUCStock/LUCStock.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "src/vehicles/LUCStock/LUCStock.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 3000,
+        "power_type": [
+          "electric"
+        ],
+        "speed": 45,
+        "track_type": [
+          "FOURTH"
+        ],
+        "tractive_effort": 0.08,
+        "weight": 150
+      },
+      "subtitle": "",
+      "train_type": "MULTIPLE_UNIT",
+      "vehicle_type": "TRAIN"
+    },
+    {
+      "based_on": "",
       "identifier": "blackpool_standard147",
       "introduction_date": "date(1990, 1, 1)",
       "name": "Blackpool Standard 147",
@@ -60389,6 +63862,43 @@
     },
     {
       "based_on": "",
+      "identifier": "lu_a_stock",
+      "introduction_date": "date(1961, 1, 1)",
+      "name": "LU A Stock",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/vehicles/LUAStock/LUAStock.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "src/vehicles/LUAStock/LUAStock.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 3000,
+        "power_type": [
+          "electric"
+        ],
+        "speed": 70,
+        "track_type": [
+          "FOURTH"
+        ],
+        "tractive_effort": 0.08,
+        "weight": 150
+      },
+      "subtitle": "",
+      "train_type": "MULTIPLE_UNIT",
+      "vehicle_type": "TRAIN"
+    },
+    {
+      "based_on": "",
       "identifier": "d78",
       "introduction_date": "date(1978, 4, 21)",
       "name": "London Underground D78 Stock",
@@ -60420,6 +63930,39 @@
       },
       "subtitle": "",
       "train_type": "MULTIPLE_UNIT",
+      "vehicle_type": "TRAIN"
+    },
+    {
+      "based_on": "",
+      "identifier": "metropolitan_g_class",
+      "introduction_date": "date(1915, 1, 1)",
+      "name": "Metropolitan Railway G Class 0-6-4T",
+      "source_yaml": {
+        "kind": "source_yaml",
+        "path": "src/vehicles/MetropolitanG/MetropolitanG.yaml"
+      },
+      "special_tags": [],
+      "spritesheet": {
+        "kind": "source_artwork",
+        "path": "src/vehicles/MetropolitanG/MetropolitanG.png"
+      },
+      "stats": {
+        "capacity": null,
+        "cargo_classes": [],
+        "default_cargo_type": null,
+        "design_speed": null,
+        "loading_speed": null,
+        "power": 850,
+        "power_type": [
+          "steam"
+        ],
+        "speed": 50,
+        "track_type": null,
+        "tractive_effort": 0.1289,
+        "weight": 72.2
+      },
+      "subtitle": "",
+      "train_type": "LOCOMOTIVE",
       "vehicle_type": "TRAIN"
     },
     {

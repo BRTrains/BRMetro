@@ -45945,11 +45945,11 @@ variants:
   identifier: d78_short_tfl_train
   name_string: str_d78_short_tfl_train_name
   strings:
+    str_lu_c_stock_default_tfl_train_v2_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
     str_d78_short_tfl_train_name: London Underground D78 Stock - {SILVER}3-car{BLACK}
       - {GOLD}TfL
     str_d78_short_tfl_train_group_name: London Underground D78 Stock - {SILVER}3-car{BLACK}
       - {GOLD}TfL
-    str_d78_short_tfl_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
 - id: 1046
   vehicle: d78
   profile: short
@@ -48372,9 +48372,9 @@ variants:
   identifier: d78_short_tfl_tram_v2
   name_string: str_d78_short_tfl_tram_v2_name
   strings:
+    str_lu_c_stock_default_tfl_train_v2_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
     str_d78_short_tfl_train_group_name: London Underground D78 Stock - {SILVER}3-car{BLACK}
       - {GOLD}TfL
-    str_d78_short_tfl_train_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
     str_d78_short_tfl_tram_v2_name: London Underground D78 Stock - {SILVER}3-car{BLACK}
       - {GOLD}TfL
 - id: 1147
@@ -48735,3 +48735,345 @@ variants:
       - {GOLD}London Underground'
     str_lu_2024_2024_9_london_underground_tram_name: London Underground 2024 Stock
       - {SILVER}9-car{BLACK} - {GOLD}London Underground
+- id: 1161
+  vehicle: lu_c_stock
+  profile: default
+  livery: tfl
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1161_lu_c_stock_default_tfl_train_v2.gnml
+  identifier: lu_c_stock_default_tfl_train_v2
+  name_string: str_lu_c_stock_default_tfl_train_v2_name
+  strings:
+    str_lu_c_stock_default_tfl_train_v2_name: LU C Stock - {SILVER}3-car{BLACK} -
+      {GOLD}TfL
+    str_lu_c_stock_default_tfl_train_v2_group_name: LU C Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL
+    str_lu_c_stock_default_tfl_train_v2_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
+- id: 1162
+  vehicle: lu_c_stock
+  profile: default
+  livery: tfl
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1162_lu_c_stock_default_tfl_tram.gnml
+  identifier: lu_c_stock_default_tfl_tram
+  name_string: str_lu_c_stock_default_tfl_tram_name
+  strings:
+    str_lu_c_stock_default_tfl_train_v2_group_name: LU C Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL
+    str_lu_c_stock_default_tfl_train_v2_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
+    str_lu_c_stock_default_tfl_tram_name: LU C Stock - {SILVER}3-car{BLACK} - {GOLD}TfL
+- id: 1163
+  vehicle: lu_a_stock
+  profile: default
+  livery: tfl
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1163_lu_a_stock_default_tfl_train_v2.gnml
+  identifier: lu_a_stock_default_tfl_train_v2
+  name_string: str_lu_a_stock_default_tfl_train_v2_name
+  strings:
+    str_lu_c_stock_default_tfl_train_v2_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
+    str_lu_a_stock_default_tfl_train_v2_name: LU A Stock - {SILVER}3-car{BLACK} -
+      {GOLD}TfL
+    str_lu_a_stock_default_tfl_train_v2_group_name: LU A Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL
+- id: 1164
+  vehicle: lu_a_stock
+  profile: default
+  livery: tfl
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1164_lu_a_stock_default_tfl_tram.gnml
+  identifier: lu_a_stock_default_tfl_tram
+  name_string: str_lu_a_stock_default_tfl_tram_name
+  strings:
+    str_lu_c_stock_default_tfl_train_v2_nested_name: '{SILVER}3-car{BLACK} - {GOLD}TfL'
+    str_lu_a_stock_default_tfl_train_v2_group_name: LU A Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL
+    str_lu_a_stock_default_tfl_tram_name: LU A Stock - {SILVER}3-car{BLACK} - {GOLD}TfL
+- id: 1165
+  vehicle: lu_a_stock
+  profile: default
+  livery: tfl unpainted
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1165_lu_a_stock_default_tfl_unpainted_train_v2.gnml
+  identifier: lu_a_stock_default_tfl_unpainted_train_v2
+  name_string: str_lu_a_stock_default_tfl_unpainted_train_v2_name
+  strings:
+    str_lu_a_stock_default_tfl_unpainted_train_v2_name: LU A Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL Unpainted
+    str_lu_a_stock_default_tfl_unpainted_train_v2_group_name: LU A Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL Unpainted
+    str_lu_a_stock_default_tfl_unpainted_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}TfL Unpainted'
+- id: 1166
+  vehicle: lu_a_stock
+  profile: default
+  livery: tfl unpainted
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 205
+    articulated_count: 3
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1166_lu_a_stock_default_tfl_unpainted_tram.gnml
+  identifier: lu_a_stock_default_tfl_unpainted_tram
+  name_string: str_lu_a_stock_default_tfl_unpainted_tram_name
+  strings:
+    str_lu_a_stock_default_tfl_unpainted_train_v2_group_name: LU A Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL Unpainted
+    str_lu_a_stock_default_tfl_unpainted_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}TfL Unpainted'
+    str_lu_a_stock_default_tfl_unpainted_tram_name: LU A Stock - {SILVER}3-car{BLACK}
+      - {GOLD}TfL Unpainted
+- id: 1167
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: metropolitan crimson
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1167_metropolitan_g_class_default_metropolitan_crimson_train_v2.gnml
+  identifier: metropolitan_g_class_default_metropolitan_crimson_train_v2
+  name_string: str_metropolitan_g_class_default_metropolitan_crimson_train_v2_name
+  strings:
+    str_metropolitan_g_class_default_metropolitan_crimson_train_v2_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Crimson
+    str_metropolitan_g_class_default_metropolitan_crimson_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Crimson
+    str_metropolitan_g_class_default_metropolitan_crimson_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}Metropolitan Crimson'
+- id: 1168
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: metropolitan crimson
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1168_metropolitan_g_class_default_metropolitan_crimson_tram.gnml
+  identifier: metropolitan_g_class_default_metropolitan_crimson_tram
+  name_string: str_metropolitan_g_class_default_metropolitan_crimson_tram_name
+  strings:
+    str_metropolitan_g_class_default_metropolitan_crimson_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Crimson
+    str_metropolitan_g_class_default_metropolitan_crimson_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}Metropolitan Crimson'
+    str_metropolitan_g_class_default_metropolitan_crimson_tram_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Crimson
+- id: 1169
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: metropolitan black
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1169_metropolitan_g_class_default_metropolitan_black_train_v2.gnml
+  identifier: metropolitan_g_class_default_metropolitan_black_train_v2
+  name_string: str_metropolitan_g_class_default_metropolitan_black_train_v2_name
+  strings:
+    str_metropolitan_g_class_default_metropolitan_black_train_v2_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Black
+    str_metropolitan_g_class_default_metropolitan_black_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Black
+    str_metropolitan_g_class_default_metropolitan_black_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}Metropolitan Black'
+- id: 1170
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: metropolitan black
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1170_metropolitan_g_class_default_metropolitan_black_tram.gnml
+  identifier: metropolitan_g_class_default_metropolitan_black_tram
+  name_string: str_metropolitan_g_class_default_metropolitan_black_tram_name
+  strings:
+    str_metropolitan_g_class_default_metropolitan_black_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Black
+    str_metropolitan_g_class_default_metropolitan_black_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}Metropolitan Black'
+    str_metropolitan_g_class_default_metropolitan_black_tram_name: Metropolitan Railway
+      G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}Metropolitan Black
+- id: 1171
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: lner apple green
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1171_metropolitan_g_class_default_lner_apple_green_train_v2.gnml
+  identifier: metropolitan_g_class_default_lner_apple_green_train_v2
+  name_string: str_metropolitan_g_class_default_lner_apple_green_train_v2_name
+  strings:
+    str_metropolitan_g_class_default_lner_apple_green_train_v2_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Apple Green
+    str_metropolitan_g_class_default_lner_apple_green_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Apple Green
+    str_metropolitan_g_class_default_lner_apple_green_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}LNER Apple Green'
+- id: 1172
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: lner apple green
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1172_metropolitan_g_class_default_lner_apple_green_tram.gnml
+  identifier: metropolitan_g_class_default_lner_apple_green_tram
+  name_string: str_metropolitan_g_class_default_lner_apple_green_tram_name
+  strings:
+    str_metropolitan_g_class_default_lner_apple_green_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Apple Green
+    str_metropolitan_g_class_default_lner_apple_green_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}LNER Apple Green'
+    str_metropolitan_g_class_default_lner_apple_green_tram_name: Metropolitan Railway
+      G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Apple Green
+- id: 1173
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: lner black
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1173_metropolitan_g_class_default_lner_black_train_v2.gnml
+  identifier: metropolitan_g_class_default_lner_black_train_v2
+  name_string: str_metropolitan_g_class_default_lner_black_train_v2_name
+  strings:
+    str_metropolitan_g_class_default_lner_black_train_v2_name: Metropolitan Railway
+      G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black
+    str_metropolitan_g_class_default_lner_black_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black
+    str_metropolitan_g_class_default_lner_black_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}LNER Black'
+- id: 1174
+  vehicle: metropolitan_g_class
+  profile: default
+  livery: lner black
+  vehicle_type: tram
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 0
+    articulated_count: 1
+    lengths:
+    - 6
+  archive: generated_variants/1174_metropolitan_g_class_default_lner_black_tram.gnml
+  identifier: metropolitan_g_class_default_lner_black_tram
+  name_string: str_metropolitan_g_class_default_lner_black_tram_name
+  strings:
+    str_metropolitan_g_class_default_lner_black_train_v2_group_name: Metropolitan
+      Railway G Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black
+    str_metropolitan_g_class_default_lner_black_train_v2_nested_name: '{SILVER}Tank
+      Engine{BLACK} - {GOLD}LNER Black'
+    str_metropolitan_g_class_default_lner_black_tram_name: Metropolitan Railway G
+      Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black

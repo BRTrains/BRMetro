@@ -1,0 +1,37 @@
+info:
+  identifier: metropolitan_g_class
+  name: Metropolitan Railway G Class 0-6-4T
+stats:
+  vehicle_type: train
+  train_type: locomotive
+  weight: 72.2
+  length: 6
+  power: 850
+  speed: 50
+  tractive_effort: 0.1289
+  power_type:
+  - steam
+cargo: none
+dates:
+  introduction_date: 1915-01-01
+profiles:
+- identifier: DEFAULT
+  num_vehicles: 1
+  capacity: 0
+  types:
+  - train
+  - tram
+liveries:
+- name: Metropolitan Crimson
+  special_tags:
+  - operator/Metropolitan Railway
+- name: Metropolitan Black
+  special_tags:
+  - operator/Metropolitan Railway
+- name: LNER Apple Green
+  special_tags:
+  - operator/LNER
+- name: LNER Black
+  special_tags:
+  - operator/LNER
+usage: METRO
