@@ -33,4 +33,4 @@ liveries:
 - name: DLR Blue
   special_tags:
   - operator/Docklands Light Railway
-usage: METRO
+usage: LIGHT_RAIL

@@ -32,4 +32,4 @@ liveries:
 - name: Merseyrail
   special_tags:
   - operator/Merseyrail
-usage: TRAM_TRAIN
+usage: SUBURBAN

@@ -33,4 +33,4 @@ liveries:
 - name: Tyne and Wear Metro
   special_tags:
   - operator/Nexus
-usage: TRAM_TRAIN
+usage: METRO
