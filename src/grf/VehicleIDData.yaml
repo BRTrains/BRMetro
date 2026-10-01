@@ -44408,14 +44408,14 @@ variants:
       - {GOLD}Stagecoach Blue'
     str_sheffield_supertram_standard_stagecoach_blue_tram_name: Sheffield Supertram
       - {SILVER}1-car{BLACK} - {GOLD}Stagecoach Blue
-- id: 1007
+- id: null
   vehicle: blackpool_flexity
   profile: standard
   livery: default
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 120
@@ -47177,14 +47177,14 @@ variants:
       - {SILVER}1-car{BLACK} - {GOLD}Stagecoach Blue
     str_sheffield_supertram_standard_stagecoach_blue_train_nested_name: '{SILVER}1-car{BLACK}
       - {GOLD}Stagecoach Blue'
-- id: 1101
+- id: null
   vehicle: blackpool_flexity
   profile: standard
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 120
@@ -49077,3 +49077,59 @@ variants:
       Engine{BLACK} - {GOLD}LNER Black'
     str_metropolitan_g_class_default_lner_black_tram_name: Metropolitan Railway G
       Class 0-6-4T - {SILVER}Tank Engine{BLACK} - {GOLD}LNER Black
+- id: 1007
+  vehicle: blackpool_flexity
+  profile: default
+  livery: blackpool transport
+  vehicle_type: train
+  generation: 1
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1007_blackpool_flexity_default_blackpool_transport_train.gnml
+  identifier: blackpool_flexity_default_blackpool_transport_train
+  name_string: str_blackpool_flexity_default_blackpool_transport_train_name
+  strings:
+    str_blackpool_flexity_default_blackpool_transport_train_name: Blackpool Bombardier
+      Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
+    str_blackpool_flexity_default_blackpool_transport_train_group_name: Blackpool
+      Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
+    str_blackpool_flexity_default_blackpool_transport_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Blackpool Transport'
+- id: 1101
+  vehicle: blackpool_flexity
+  profile: default
+  livery: blackpool transport
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 44
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1101_blackpool_flexity_default_blackpool_transport_tram_v2.gnml
+  identifier: blackpool_flexity_default_blackpool_transport_tram_v2
+  name_string: str_blackpool_flexity_default_blackpool_transport_tram_v2_name
+  strings:
+    str_blackpool_flexity_default_blackpool_transport_train_group_name: Blackpool
+      Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
+    str_blackpool_flexity_default_blackpool_transport_train_nested_name: '{SILVER}Locomotive{BLACK}
+      - {GOLD}Blackpool Transport'
+    str_blackpool_flexity_default_blackpool_transport_tram_v2_name: Blackpool Bombardier
+      Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport

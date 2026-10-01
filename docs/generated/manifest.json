@@ -1,7 +1,7 @@
 {
   "build_success": true,
-  "builder_commit": "f82265dc51d34e5f02e3670271a78b60d0cf0d01",
-  "generated_at": "2026-10-01T19:48:24.836584Z",
+  "builder_commit": "b3a196241fc3cae404549a0d098d7f6616ec5ad1",
+  "generated_at": "2026-10-01T22:36:15.220277Z",
   "liveries": [
     {
       "name": "Default",
@@ -161,13 +161,15 @@
       "vehicle_identifier": "br_398"
     },
     {
-      "name": "Default",
+      "name": "Blackpool Transport",
       "profile_restrictions": [],
-      "special_tags": [],
+      "special_tags": [
+        "operator/Blackpool Transport"
+      ],
       "spritesheet": null,
       "variants": [
-        "blackpool_flexity_standard_default_train",
-        "blackpool_flexity_standard_default_tram"
+        "blackpool_flexity_default_blackpool_transport_train",
+        "blackpool_flexity_default_blackpool_transport_tram_v2"
       ],
       "vehicle_identifier": "blackpool_flexity"
     },
@@ -1088,25 +1090,27 @@
       "vehicle_identifier": "br_398"
     },
     {
-      "identifier": "standard",
-      "name": "Flexity Tram",
+      "identifier": "DEFAULT",
+      "name": "5-Part Set",
       "resolved": {
-        "capacity": 120,
-        "cargo_classes": [
-          "CC_PASSENGERS"
-        ],
+        "capacity": 44,
+        "cargo_classes": null,
         "default_cargo_type": null,
-        "introduction_date": "date(2012, 1, 1)",
-        "num_vehicles": 1,
-        "power": 700,
-        "speed": 70,
+        "introduction_date": "date(2010, 5, 1)",
+        "num_vehicles": 5,
+        "power": 600,
+        "speed": 43,
         "sprite_pattern": [
-          1
+          1,
+          2,
+          3,
+          4,
+          5
         ],
         "track_type": [
           "ELRL"
         ],
-        "weight": 30
+        "weight": 50
       },
       "source_restrictions": {
         "special_tags": [],
@@ -1115,8 +1119,8 @@
       "sprite_group": null,
       "spritesheet": null,
       "variants": [
-        "blackpool_flexity_standard_default_train",
-        "blackpool_flexity_standard_default_tram"
+        "blackpool_flexity_default_blackpool_transport_train",
+        "blackpool_flexity_default_blackpool_transport_tram_v2"
       ],
       "vehicle_identifier": "blackpool_flexity"
     },
@@ -9852,9 +9856,13 @@
     },
     {
       "formation": {
-        "part_count": 1,
+        "part_count": 5,
         "sprite_pattern": [
-          1
+          1,
+          2,
+          3,
+          4,
+          5
         ]
       },
       "lighting": {
@@ -9862,174 +9870,18 @@
         "transparent": null
       },
       "livery": {
-        "name": "Default"
+        "name": "Blackpool Transport"
       },
       "profile": {
-        "identifier": "standard",
-        "name": "Flexity Tram"
+        "identifier": "DEFAULT",
+        "name": "5-Part Set"
       },
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_blackpool_flexity_Blackpool_Flexity_0.png"
+          "path": "WorkingData/BRMetro/purchase_blackpool_flexity_Blackpool_Flexity_0_Blackpool_Flexity_16_Blackpool_Flexity_32_Blackpool_Flexity_46_Blackpool_Flexity_62.png"
         },
-        "name": "spriteset_blackpool_flexity_standard_default_train_purchase",
-        "rows": [
-          {
-            "flags": [],
-            "height": 13,
-            "left_x": 0,
-            "offset_x": -25,
-            "offset_y": -8,
-            "upper_y": 0,
-            "width": 128
-          }
-        ],
-        "template": "tmpl_purchase",
-        "x": 0,
-        "y": 0
-      },
-      "source_restrictions": {
-        "livery_profiles": [],
-        "livery_spritesheet": null,
-        "profile_spritesheet": null
-      },
-      "sprite_group": {
-        "reused": false,
-        "source": null
-      },
-      "sprite_id": {
-        "generation": 1,
-        "id": 1101
-      },
-      "spritesets": [
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
-          },
-          "length": 3,
-          "order": 0,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_blackpool_flexity_standard_default_train_0",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 0
-        }
-      ],
-      "variant": {
-        "display_name": "Blackpool Flexity - {SILVER}1-car{BLACK}",
-        "graphics_emitted": true,
-        "identifier": "blackpool_flexity_standard_default_train",
-        "nml_filename": {
-          "kind": "nml",
-          "path": "blackpool_flexity_standard_default_train.gnml"
-        },
-        "vehicle_type": "TRAIN"
-      },
-      "vehicle": {
-        "identifier": "blackpool_flexity",
-        "name": "Blackpool Flexity"
-      }
-    },
-    {
-      "formation": {
-        "part_count": 1,
-        "sprite_pattern": [
-          1
-        ]
-      },
-      "lighting": {
-        "overlay": null,
-        "transparent": null
-      },
-      "livery": {
-        "name": "Default"
-      },
-      "profile": {
-        "identifier": "standard",
-        "name": "Flexity Tram"
-      },
-      "purchase": {
-        "file": {
-          "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_blackpool_flexity_Blackpool_Flexity_0.png"
-        },
-        "name": "spriteset_blackpool_flexity_standard_default_tram_purchase",
+        "name": "spriteset_blackpool_flexity_default_blackpool_transport_train_purchase",
         "rows": [
           {
             "flags": [],
@@ -10078,7 +9930,7 @@
             },
             {
               "flags": [],
-              "height": 15,
+              "height": 14,
               "left_x": 9,
               "offset_x": 0,
               "offset_y": 0,
@@ -10096,7 +9948,7 @@
             },
             {
               "flags": [],
-              "height": 15,
+              "height": 14,
               "left_x": 36,
               "offset_x": 0,
               "offset_y": 0,
@@ -10114,7 +9966,7 @@
             },
             {
               "flags": [],
-              "height": 15,
+              "height": 14,
               "left_x": 58,
               "offset_x": 0,
               "offset_y": 0,
@@ -10132,7 +9984,7 @@
             },
             {
               "flags": [],
-              "height": 15,
+              "height": 14,
               "left_x": 85,
               "offset_x": 0,
               "offset_y": 0,
@@ -10141,25 +9993,881 @@
             }
           ],
           "source_name": "spriteset_y0",
-          "spriteset": "spriteset_blackpool_flexity_standard_default_tram_0",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_train_0",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y16",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_train_1",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 2,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 20,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 30,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 41,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 50,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            }
+          ],
+          "source_name": "spriteset_y32",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_train_2",
+          "template": "tmpl_tram_2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y46",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_train_3",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 46
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 4,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y62",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_train_4",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 62
         }
       ],
       "variant": {
-        "display_name": "Blackpool Flexity - {SILVER}1-car{BLACK}",
+        "display_name": "Blackpool Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport",
         "graphics_emitted": true,
-        "identifier": "blackpool_flexity_standard_default_tram",
+        "identifier": "blackpool_flexity_default_blackpool_transport_train",
         "nml_filename": {
           "kind": "nml",
-          "path": "blackpool_flexity_standard_default_tram.gnml"
+          "path": "blackpool_flexity_default_blackpool_transport_train.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "blackpool_flexity",
+        "name": "Blackpool Bombardier Flexity 2"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 5,
+        "sprite_pattern": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Blackpool Transport"
+      },
+      "profile": {
+        "identifier": "DEFAULT",
+        "name": "5-Part Set"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_blackpool_flexity_Blackpool_Flexity_0_Blackpool_Flexity_16_Blackpool_Flexity_32_Blackpool_Flexity_46_Blackpool_Flexity_62.png"
+        },
+        "name": "spriteset_blackpool_flexity_default_blackpool_transport_tram_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1101
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_tram_v2_0",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y16",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_tram_v2_1",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 2,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 20,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 30,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 41,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 50,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            }
+          ],
+          "source_name": "spriteset_y32",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_tram_v2_2",
+          "template": "tmpl_tram_2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y46",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_tram_v2_3",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 46
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.png"
+          },
+          "length": 3,
+          "order": 4,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y62",
+          "spriteset": "spriteset_blackpool_flexity_default_blackpool_transport_tram_v2_4",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 62
+        }
+      ],
+      "variant": {
+        "display_name": "Blackpool Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport",
+        "graphics_emitted": true,
+        "identifier": "blackpool_flexity_default_blackpool_transport_tram_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "blackpool_flexity_default_blackpool_transport_tram_v2.gnml"
         },
         "vehicle_type": "TRAM"
       },
       "vehicle": {
         "identifier": "blackpool_flexity",
-        "name": "Blackpool Flexity"
+        "name": "Blackpool Bombardier Flexity 2"
       }
     },
     {
@@ -63254,8 +63962,8 @@
     {
       "based_on": "",
       "identifier": "blackpool_flexity",
-      "introduction_date": "date(2012, 1, 1)",
-      "name": "Blackpool Flexity",
+      "introduction_date": "date(2010, 5, 1)",
+      "name": "Blackpool Bombardier Flexity 2",
       "source_yaml": {
         "kind": "source_yaml",
         "path": "src/vehicles/Blackpool_Flexity/Blackpool_Flexity.yaml"
@@ -63267,20 +63975,20 @@
       },
       "stats": {
         "capacity": null,
-        "cargo_classes": [
-          "CC_PASSENGERS"
-        ],
+        "cargo_classes": null,
         "default_cargo_type": null,
         "design_speed": null,
         "loading_speed": null,
-        "power": 700,
-        "power_type": "electric",
-        "speed": 70,
+        "power": 600,
+        "power_type": [
+          "electric"
+        ],
+        "speed": 43,
         "track_type": [
           "ELRL"
         ],
-        "tractive_effort": 0.06,
-        "weight": 30
+        "tractive_effort": 0.08,
+        "weight": 50
       },
       "subtitle": "",
       "train_type": "MULTIPLE_UNIT",
