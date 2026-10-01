@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "ae1ff7d50cb268fa7b8f8d096d2349d92cb4671f",
-  "generated_at": "2026-10-01T19:02:51.364179Z",
+  "generated_at": "2026-10-01T19:17:50.706623Z",
   "liveries": [
     {
       "name": "Default",
@@ -556,7 +556,7 @@
           3
         ],
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "weight": 213
       },
@@ -595,7 +595,7 @@
           2
         ],
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "weight": 213
       },
@@ -753,7 +753,7 @@
           2
         ],
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "weight": 180
       },
@@ -793,7 +793,7 @@
           2
         ],
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "weight": 180
       },
@@ -996,7 +996,7 @@
           3
         ],
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "weight": 150
       },
@@ -1034,7 +1034,7 @@
           2
         ],
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "weight": 150
       },
@@ -19594,7 +19594,7 @@
         "power_type": "electric",
         "speed": 60,
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "tractive_effort": 57,
         "weight": 213
@@ -19664,7 +19664,7 @@
         "power_type": "electric",
         "speed": 62,
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "tractive_effort": 0.08,
         "weight": 180
@@ -19874,7 +19874,7 @@
         "power_type": "electric",
         "speed": 45,
         "track_type": [
-          "ELRL"
+          "FOURTH"
         ],
         "tractive_effort": 0.08,
         "weight": 150

@@ -10,7 +10,7 @@ stats:
   tractive_effort: 57
   power_type: electric
   track_type:
-  - ELRL
+  - FOURTH
   length: 8
 cargo: passenger
 dates:
