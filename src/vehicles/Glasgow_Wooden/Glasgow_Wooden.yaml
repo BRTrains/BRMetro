@@ -1,0 +1,27 @@
+info:
+  identifier: glasgow_wooden
+  name: Glasgow Wooden Tram
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 18
+  power: 200
+  speed: 45
+  tractive_effort: 0.04
+  power_type: electric
+  track_type:
+  - ELRL
+cargo: passenger
+dates:
+  introduction_date: '1930-01-01'
+  model_life: 60
+  vehicle_life: 80
+profiles:
+- identifier: standard
+  num_vehicles: 1
+  capacity: 60
+  types:
+  - tram
+  name: Wooden Tram
+liveries:
+- name: Default

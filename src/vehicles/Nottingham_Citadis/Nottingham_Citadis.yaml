@@ -1,0 +1,28 @@
+info:
+  identifier: nottingham_citadis
+  name: Nottingham Citadis 302
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 50
+  power: 600
+  speed: 43
+  tractive_effort: 0.06
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 3
+cargo: passenger
+dates:
+  introduction_date: '2014-04-01'
+  model_life: 35
+  vehicle_life: 50
+profiles:
+- identifier: standard
+  num_vehicles: 5
+  capacity: 250
+  types:
+  - tram
+  name: Citadis
+liveries:
+- name: Default

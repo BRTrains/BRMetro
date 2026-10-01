@@ -1,0 +1,8 @@
+project:
+  name: BRMetro
+  build: true
+  docs: true
+  target_folders:
+    - src/vehicles
+  grf_folder: src/grf
+  palette: Sprites/ttd-newgrf-dos.gpl

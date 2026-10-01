@@ -1,0 +1,34 @@
+info:
+  identifier: b23
+  name: DLR B23 Stock
+  operator: DLR
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 116
+  power: 696
+  speed: 50
+  tractive_effort: 60
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 6
+cargo: passenger
+dates:
+  introduction_date: 2025-9-30
+  vehicle_life: 50
+profiles:
+- identifier: default
+  num_vehicles: 1
+  capacity: 792
+  types:
+  - tram
+  name: 5
+liveries:
+- name: DLR Turquoise
+  sprite_override:
+  - 1
+  - 4
+  - 3
+  - 4
+  - 2

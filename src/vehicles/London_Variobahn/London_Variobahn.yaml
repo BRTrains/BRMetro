@@ -1,0 +1,33 @@
+info:
+  identifier: london_variobahn
+  name: London Variobahn
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 30
+  power: 700
+  speed: 70
+  tractive_effort: 0.06
+  power_type: electric
+  track_type:
+  - ELRL
+cargo: passenger
+dates:
+  introduction_date: '2012-01-01'
+  model_life: 30
+  vehicle_life: 45
+profiles:
+- identifier: standard
+  num_vehicles: 1
+  capacity: 120
+  types:
+  - tram
+  name: Variobahn Tram
+liveries:
+- name: Default
+  sprite_override:
+  - 1
+  - 3
+  - 4
+  - 3
+  - 2

@@ -1,0 +1,127 @@
+info:
+  identifier: b90
+  name: DLR B90 Stock
+  operator: DLR
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 72
+  power: 0
+  speed: 60
+  tractive_effort: 57
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 5
+cargo: passenger
+dates:
+  introduction_date: 2007-4-1
+  vehicle_life: 50
+profiles:
+- identifier: single
+  num_vehicles: 2
+  capacity: 284
+  types:
+  - tram
+  name: 2-car Single Unit
+  power: 600
+  sprite_override:
+  - 1
+  - 2
+- identifier: double
+  num_vehicles: 4
+  capacity: 568
+  types:
+  - tram
+  name: 4-car Double Unit
+  power: 1200
+  sprite_override:
+  - 1
+  - 2
+  sprite_group: single
+- identifier: triple
+  num_vehicles: 6
+  capacity: 852
+  types:
+  - tram
+  name: 6-car Triple Unit
+  power: 1800
+  sprite_override:
+  - 1
+  - 2
+  sprite_group: single
+liveries:
+- name: DLR Blue
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: DLR Turquoise
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: DLR Red (Red Front)
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: General Electric advert
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: DLR Red (Black Front)
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: London Olympics
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+  - 3
+  - 4
+- name: DLR Red, Pride
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: Tour De France advert
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
+- name: Lewisham Shopping Centre advert
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2

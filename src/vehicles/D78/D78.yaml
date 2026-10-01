@@ -1,0 +1,46 @@
+info:
+  identifier: d78
+  name: London Underground D78 Stock
+  operator: LU
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 150
+  power: 3000
+  speed: 45
+  tractive_effort: 0.08
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 8
+cargo: passenger
+dates:
+  introduction_date: 1978-4-21
+  model_life: 15
+  vehicle_life: 50
+profiles:
+- identifier: short
+  num_vehicles: 3
+  capacity: 535
+  types:
+  - train
+  sprite_override:
+  - 1
+  - 2
+  - 3
+- identifier: standard
+  num_vehicles: 6
+  capacity: 535
+  types:
+  - train
+  sprite_override:
+  - 1
+  - 2
+  - 3
+  - 2
+  - 3
+  - 2
+  sprite_group: short
+liveries:
+- name: TfL
+- name: Pre-refurb TfL

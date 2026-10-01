@@ -1,0 +1,28 @@
+info:
+  identifier: bolton_66
+  name: Bolton 66 Tram
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 20
+  power: 300
+  speed: 55
+  tractive_effort: 0.05
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 5
+cargo: passenger
+dates:
+  introduction_date: '1966-01-01'
+  model_life: 45
+  vehicle_life: 60
+profiles:
+- identifier: standard
+  num_vehicles: 1
+  capacity: 70
+  types:
+  - tram
+  name: Bolton 66
+liveries:
+- name: Default

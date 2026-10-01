@@ -1,0 +1,56 @@
+info:
+  identifier: sstock
+  name: London Underground S Stock
+stats:
+  vehicle_type: train
+  train_type: multiple_unit
+  weight: 213
+  power: 0
+  speed: 60
+  tractive_effort: 57
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 8
+cargo: passenger
+dates:
+  introduction_date: '2012-04-01'
+  vehicle_life: 50
+profiles:
+- identifier: s7
+  num_vehicles: 7
+  capacity: 1435
+  types:
+  - train
+  name: London Underground S7 Stock
+  power: 4160
+  sprite_override:
+  - 1
+  - 2
+  - 3
+  - 2
+  - 3
+  - 2
+  - 3
+- identifier: s8
+  num_vehicles: 8
+  capacity: 1640
+  types:
+  - train
+  name: London Underground S8 Stock
+  power: 4992
+  sprite_group: s7
+  sprite_override:
+  - 1
+  - 2
+  - 3
+  - 2
+  - 3
+  - 2
+  - 3
+  - 2
+liveries:
+- name: Transport for London
+  profiles:
+  - s7
+  - s8

@@ -1,0 +1,30 @@
+info:
+  identifier: sheffield_supertram
+  name: Sheffield Supertram
+  operator: Supertram
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 32
+  power: 700
+  speed: 70
+  tractive_effort: 0.06
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 5
+cargo: passenger
+dates:
+  introduction_date: '1994-01-01'
+  model_life: 30
+  vehicle_life: 45
+profiles:
+- identifier: standard
+  num_vehicles: 1
+  capacity: 130
+  types:
+  - tram
+  name: 3
+liveries:
+- name: Stagecoach White
+- name: Stagecoach Blue

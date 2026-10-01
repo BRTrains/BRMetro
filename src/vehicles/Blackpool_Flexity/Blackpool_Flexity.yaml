@@ -1,0 +1,28 @@
+info:
+  identifier: blackpool_flexity
+  name: Blackpool Flexity
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 30
+  power: 700
+  speed: 70
+  tractive_effort: 0.06
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 3
+cargo: passenger
+dates:
+  introduction_date: '2012-01-01'
+  model_life: 30
+  vehicle_life: 45
+profiles:
+- identifier: standard
+  num_vehicles: 1
+  capacity: 120
+  types:
+  - tram
+  name: Flexity Tram
+liveries:
+- name: Default

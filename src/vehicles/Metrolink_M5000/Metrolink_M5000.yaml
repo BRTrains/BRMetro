@@ -1,0 +1,41 @@
+info:
+  identifier: metrolink_m5000
+  name: Metrolink M5000
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 34
+  power: 850
+  speed: 75
+  tractive_effort: 0.07
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 5
+cargo: passenger
+dates:
+  introduction_date: '2009-01-01'
+  model_life: 30
+  vehicle_life: 45
+profiles:
+- identifier: single
+  num_vehicles: 2
+  capacity: 130
+  types:
+  - tram
+  name: M5000 Single Unit
+  sprite_override:
+  - 1
+  - 2
+- identifier: double
+  num_vehicles: 4
+  capacity: 130
+  types:
+  - tram
+  name: M5000 Double Unit
+  sprite_override:
+  - 1
+  - 2
+  sprite_group: single
+liveries:
+- name: Default

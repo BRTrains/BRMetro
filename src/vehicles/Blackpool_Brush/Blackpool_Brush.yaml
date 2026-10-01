@@ -1,0 +1,30 @@
+info:
+  identifier: blackpool_brush
+  name: Blackpool Brush Tram
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 25
+  power: 400
+  speed: 60
+  tractive_effort: 0.05
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 5
+cargo: passenger
+dates:
+  introduction_date: '1960-01-01'
+  model_life: 40
+  vehicle_life: 50
+profiles:
+- identifier: standard
+  num_vehicles: 1
+  capacity: 80
+  types:
+  - tram
+  name: Single Brush
+liveries:
+- name: Blackpool Green
+- name: Royal Mail
+- name: Royal Mail Advert Board

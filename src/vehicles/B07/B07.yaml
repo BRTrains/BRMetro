@@ -1,0 +1,58 @@
+info:
+  identifier: b07
+  name: DLR B07 Stock
+  operator: DLR
+stats:
+  vehicle_type: tram
+  train_type: multiple_unit
+  weight: 72
+  power: 696
+  speed: 60
+  tractive_effort: 57
+  power_type: electric
+  track_type:
+  - ELRL
+  length: 5
+cargo: passenger
+dates:
+  introduction_date: 2007-4-1
+  vehicle_life: 50
+profiles:
+- identifier: single
+  num_vehicles: 2
+  capacity: 284
+  types:
+  - tram
+  name: 2-car Single Unit
+  sprite_override:
+  - 1
+  - 2
+- identifier: double
+  num_vehicles: 4
+  capacity: 568
+  types:
+  - tram
+  name: 4-car Double Unit
+  sprite_override:
+  - 1
+  - 2
+  sprite_group: single
+- identifier: triple
+  num_vehicles: 6
+  capacity: 852
+  types:
+  - tram
+  name: 6-car Triple Unit
+  sprite_override:
+  - 1
+  - 2
+  sprite_group: single
+liveries:
+- name: DLR Red
+  profiles:
+  - single
+  - double
+  - triple
+  sprite_override:
+  - 1
+  - 2
