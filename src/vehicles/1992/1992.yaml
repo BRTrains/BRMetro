@@ -28,8 +28,8 @@ profiles:
   power: 2500
   sprite_override:
   - 1
-  - 2
-  - 1
+  - 3
+  - 3
   - 2
 - identifier: eight_car
   num_vehicles: 8
@@ -40,12 +40,12 @@ profiles:
   power: 2500
   sprite_override:
   - 1
-  - 2
-  - 1
-  - 2
-  - 1
-  - 2
-  - 1
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
   - 2
   sprite_group: four_car
 liveries:

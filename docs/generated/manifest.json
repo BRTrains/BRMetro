@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "b3a196241fc3cae404549a0d098d7f6616ec5ad1",
-  "generated_at": "2026-10-01T22:36:15.220277Z",
+  "generated_at": "2026-10-01T22:38:21.301987Z",
   "liveries": [
     {
       "name": "Default",
@@ -1482,8 +1482,8 @@
         "speed": 62,
         "sprite_pattern": [
           1,
-          2,
-          1,
+          3,
+          3,
           2
         ],
         "track_type": [
@@ -1520,12 +1520,12 @@
         "speed": 62,
         "sprite_pattern": [
           1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
           2
         ],
         "track_type": [
@@ -33715,8 +33715,8 @@
         "part_count": 4,
         "sprite_pattern": [
           1,
-          2,
-          1,
+          3,
+          3,
           2
         ]
       },
@@ -33740,7 +33740,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_26_1992_0_1992_26.png"
+          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_52_1992_52_1992_26.png"
         },
         "name": "spriteset_lu_1992_four_car_transport_for_london_train_purchase",
         "rows": [
@@ -33943,11 +33943,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_four_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -34030,11 +34030,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_train_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -34118,7 +34118,7 @@
             }
           ],
           "source_name": "spriteset_y26",
-          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_train_1",
+          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_train_2",
           "template": "tmpl_train_8",
           "x": 0,
           "y": 26
@@ -34144,8 +34144,8 @@
         "part_count": 4,
         "sprite_pattern": [
           1,
-          2,
-          1,
+          3,
+          3,
           2
         ]
       },
@@ -34169,7 +34169,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_26_1992_0_1992_26.png"
+          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_52_1992_52_1992_26.png"
         },
         "name": "spriteset_lu_1992_four_car_transport_for_london_tram_v2_purchase",
         "rows": [
@@ -34372,11 +34372,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_four_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -34459,11 +34459,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_tram_v2_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -34547,7 +34547,7 @@
             }
           ],
           "source_name": "spriteset_y26",
-          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_tram_v2_1",
+          "spriteset": "spriteset_lu_1992_four_car_transport_for_london_tram_v2_2",
           "template": "tmpl_tram_8",
           "x": 0,
           "y": 26
@@ -34573,8 +34573,8 @@
         "part_count": 4,
         "sprite_pattern": [
           1,
-          2,
-          1,
+          3,
+          3,
           2
         ]
       },
@@ -34598,7 +34598,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_52_1992_78_1992_52_1992_78.png"
+          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_78_1992_130_1992_130_1992_104.png"
         },
         "name": "spriteset_lu_1992_four_car_network_south_east_train_purchase",
         "rows": [
@@ -34713,11 +34713,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y52",
+          "source_name": "spriteset_y78",
           "spriteset": "spriteset_lu_1992_four_car_network_south_east_train_0",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 52
+          "y": 78
         },
         {
           "file": {
@@ -34800,11 +34800,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y78",
+          "source_name": "spriteset_y130",
           "spriteset": "spriteset_lu_1992_four_car_network_south_east_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 78
+          "y": 130
         },
         {
           "file": {
@@ -34887,11 +34887,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y52",
-          "spriteset": "spriteset_lu_1992_four_car_network_south_east_train_0",
+          "source_name": "spriteset_y130",
+          "spriteset": "spriteset_lu_1992_four_car_network_south_east_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 52
+          "y": 130
         },
         {
           "file": {
@@ -34974,11 +34974,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y78",
-          "spriteset": "spriteset_lu_1992_four_car_network_south_east_train_1",
+          "source_name": "spriteset_y104",
+          "spriteset": "spriteset_lu_1992_four_car_network_south_east_train_2",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 78
+          "y": 104
         }
       ],
       "variant": {
@@ -35001,8 +35001,8 @@
         "part_count": 4,
         "sprite_pattern": [
           1,
-          2,
-          1,
+          3,
+          3,
           2
         ]
       },
@@ -35026,7 +35026,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_52_1992_78_1992_52_1992_78.png"
+          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_78_1992_130_1992_130_1992_104.png"
         },
         "name": "spriteset_lu_1992_four_car_network_south_east_tram_v2_purchase",
         "rows": [
@@ -35141,11 +35141,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y52",
+          "source_name": "spriteset_y78",
           "spriteset": "spriteset_lu_1992_four_car_network_south_east_tram_v2_0",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 52
+          "y": 78
         },
         {
           "file": {
@@ -35228,11 +35228,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y78",
+          "source_name": "spriteset_y130",
           "spriteset": "spriteset_lu_1992_four_car_network_south_east_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 78
+          "y": 130
         },
         {
           "file": {
@@ -35315,11 +35315,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y52",
-          "spriteset": "spriteset_lu_1992_four_car_network_south_east_tram_v2_0",
+          "source_name": "spriteset_y130",
+          "spriteset": "spriteset_lu_1992_four_car_network_south_east_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 52
+          "y": 130
         },
         {
           "file": {
@@ -35402,11 +35402,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y78",
-          "spriteset": "spriteset_lu_1992_four_car_network_south_east_tram_v2_1",
+          "source_name": "spriteset_y104",
+          "spriteset": "spriteset_lu_1992_four_car_network_south_east_tram_v2_2",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 78
+          "y": 104
         }
       ],
       "variant": {
@@ -35429,12 +35429,12 @@
         "part_count": 8,
         "sprite_pattern": [
           1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
           2
         ]
       },
@@ -35458,7 +35458,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_26_1992_0_1992_26_1992_0_1992_26_1992_0_1992_26.png"
+          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_52_1992_52_1992_52_1992_52_1992_52_1992_52_1992_26.png"
         },
         "name": "spriteset_lu_1992_eight_car_transport_for_london_train_purchase",
         "rows": [
@@ -35661,11 +35661,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -35748,11 +35748,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -35835,11 +35835,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -35922,11 +35922,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -36009,11 +36009,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -36096,11 +36096,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
           "template": "tmpl_train_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -36184,7 +36184,7 @@
             }
           ],
           "source_name": "spriteset_y26",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_1",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_train_2",
           "template": "tmpl_train_8",
           "x": 0,
           "y": 26
@@ -36210,12 +36210,12 @@
         "part_count": 8,
         "sprite_pattern": [
           1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
           2
         ]
       },
@@ -36239,7 +36239,7 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_26_1992_0_1992_26_1992_0_1992_26_1992_0_1992_26.png"
+          "path": "WorkingData/BRMetro/purchase_lu_1992_1992_0_1992_52_1992_52_1992_52_1992_52_1992_52_1992_52_1992_26.png"
         },
         "name": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_purchase",
         "rows": [
@@ -36442,11 +36442,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -36529,11 +36529,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -36616,11 +36616,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -36703,11 +36703,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -36790,11 +36790,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y26",
+          "source_name": "spriteset_y52",
           "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 26
+          "y": 52
         },
         {
           "file": {
@@ -36877,11 +36877,11 @@
               "width": 22
             }
           ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_0",
+          "source_name": "spriteset_y52",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
           "template": "tmpl_tram_8",
           "x": 0,
-          "y": 0
+          "y": 52
         },
         {
           "file": {
@@ -36965,7 +36965,7 @@
             }
           ],
           "source_name": "spriteset_y26",
-          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_1",
+          "spriteset": "spriteset_lu_1992_eight_car_transport_for_london_tram_v2_2",
           "template": "tmpl_tram_8",
           "x": 0,
           "y": 26
