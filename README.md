@@ -7,7 +7,7 @@ A BRBuild project containing the tram and metro vehicles imported from the forme
 ```bash
 uv venv --python 3.14 .venv
 uv pip install --python .venv/bin/python pillow pyyaml nml
-BRBUILD_DIR=/path/to/BRBuild .venv/bin/python build.py --log
+BRBUILD_DIR=/path/to/BRBuild .venv/bin/python build.py --log --docs
 ```
 
 `BRBuild.yaml` enables the BRBuild documentation manifest. A successful build writes `docs/generated/manifest.json` for BRdocs consumers.

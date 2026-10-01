@@ -21,6 +21,7 @@ from Project import Project  # noqa: E402
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build BRMetro with BRBuild")
     parser.add_argument("--log", action="store_true", help="Write build.log")
+    parser.add_argument("--docs", action="store_true", help="Generate the BRDocs manifest after a successful build")
     args = parser.parse_args()
 
     handlers = [logging.StreamHandler(sys.stdout)]
@@ -49,7 +50,7 @@ def main() -> None:
         "template_folder": project_config.get("template_folder"),
     })
 
-    Builder().build(project)
+    Builder().build(project, docs=args.docs)
 
 
 if __name__ == "__main__":
