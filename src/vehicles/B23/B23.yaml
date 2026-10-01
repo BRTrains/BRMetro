@@ -22,6 +22,7 @@ profiles:
   num_vehicles: 1
   capacity: 792
   types:
+  - train
   - tram
   name: 5
 liveries:
@@ -32,3 +33,4 @@ liveries:
   - 3
   - 4
   - 2
+usage: TRAM

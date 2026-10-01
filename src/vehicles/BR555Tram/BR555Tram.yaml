@@ -1,8 +1,7 @@
 info:
   identifier: br_555
-  name: 'Class 555'
+  name: Class 555
   nickname: Metro
-
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -12,21 +11,26 @@ stats:
   speed: 50
   tractive_effort: 0.08
   power_type:
-    - electric
-
+  - electric
 cargo: passenger
-
 dates:
   introduction_date: 2024-05-01
-
 profiles:
-  - identifier: DEFAULT
-    name: 5-Car Set
-    num_vehicles: 5
-    capacity: 120
-    sprite_override: [1, 3, 3, 3, 2]
-    types: [train, tram]
-
+- identifier: DEFAULT
+  name: 5-Car Set
+  num_vehicles: 5
+  capacity: 120
+  sprite_override:
+  - 1
+  - 3
+  - 3
+  - 3
+  - 2
+  types:
+  - train
+  - tram
 liveries:
-  - name: 'Tyne and Wear Metro'
-    special_tags: [operator/Nexus]
+- name: Tyne and Wear Metro
+  special_tags:
+  - operator/Nexus
+usage: TRAM_TRAIN

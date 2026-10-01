@@ -1,7 +1,6 @@
 info:
   identifier: dlr_p86
-  name: 'Docklands Light Railway P86'
-
+  name: Docklands Light Railway P86
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -11,23 +10,27 @@ stats:
   speed: 50
   tractive_effort: 0.08
   power_type:
-    - electric
+  - electric
   track_type:
-    - ELRL
-
+  - ELRL
 cargo: passenger
-
 dates:
   introduction_date: 1986-04-01
-
 profiles:
-  - identifier: DEFAULT
-    name: 4-Car Double Unit
-    num_vehicles: 4
-    capacity: 84
-    types: [tram]
-    sprite_override: [1, 2, 1, 2]
-
+- identifier: DEFAULT
+  name: 4-Car Double Unit
+  num_vehicles: 4
+  capacity: 84
+  types:
+  - train
+  - tram
+  sprite_override:
+  - 1
+  - 2
+  - 1
+  - 2
 liveries:
-  - name: 'DLR Blue'
-    special_tags: [operator/Docklands Light Railway]
+- name: DLR Blue
+  special_tags:
+  - operator/Docklands Light Railway
+usage: METRO

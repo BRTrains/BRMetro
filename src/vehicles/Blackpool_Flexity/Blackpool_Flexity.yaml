@@ -22,7 +22,9 @@ profiles:
   num_vehicles: 1
   capacity: 120
   types:
+  - train
   - tram
   name: Flexity Tram
 liveries:
 - name: Default
+usage: TRAM

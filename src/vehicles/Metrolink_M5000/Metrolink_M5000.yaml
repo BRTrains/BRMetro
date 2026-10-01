@@ -22,6 +22,7 @@ profiles:
   num_vehicles: 2
   capacity: 130
   types:
+  - train
   - tram
   name: M5000 Single Unit
   sprite_override:
@@ -31,6 +32,7 @@ profiles:
   num_vehicles: 4
   capacity: 130
   types:
+  - train
   - tram
   name: M5000 Double Unit
   sprite_override:
@@ -39,3 +41,4 @@ profiles:
   sprite_group: single
 liveries:
 - name: Default
+usage: TRAM

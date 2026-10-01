@@ -22,6 +22,7 @@ profiles:
   num_vehicles: 2
   capacity: 284
   types:
+  - train
   - tram
   name: 2-car Single Unit
   power: 600
@@ -32,6 +33,7 @@ profiles:
   num_vehicles: 4
   capacity: 568
   types:
+  - train
   - tram
   name: 4-car Double Unit
   power: 1200
@@ -43,6 +45,7 @@ profiles:
   num_vehicles: 6
   capacity: 852
   types:
+  - train
   - tram
   name: 6-car Triple Unit
   power: 1800
@@ -125,3 +128,4 @@ liveries:
   sprite_override:
   - 1
   - 2
+usage: TRAM

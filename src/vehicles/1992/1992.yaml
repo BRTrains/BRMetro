@@ -24,6 +24,7 @@ profiles:
   capacity: 141
   types:
   - train
+  - tram
   power: 2500
   sprite_override:
   - 1
@@ -35,6 +36,7 @@ profiles:
   capacity: 141
   types:
   - train
+  - tram
   power: 2500
   sprite_override:
   - 1
@@ -58,3 +60,4 @@ liveries:
   - four_car
   special_tags:
   - operator/NSE
+usage: UNDERGROUND

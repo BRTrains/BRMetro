@@ -22,7 +22,9 @@ profiles:
   num_vehicles: 1
   capacity: 70
   types:
+  - train
   - tram
   name: Bolton 66
 liveries:
 - name: Default
+usage: TRAM

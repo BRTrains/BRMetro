@@ -24,6 +24,7 @@ profiles:
   capacity: 535
   types:
   - train
+  - tram
   sprite_override:
   - 1
   - 2
@@ -33,6 +34,7 @@ profiles:
   capacity: 535
   types:
   - train
+  - tram
   sprite_override:
   - 1
   - 2
@@ -44,3 +46,4 @@ profiles:
 liveries:
 - name: TfL
 - name: Pre-refurb TfL
+usage: UNDERGROUND

@@ -23,6 +23,7 @@ profiles:
   num_vehicles: 1
   capacity: 150
   types:
+  - train
   - tram
   name: 5-car
   sprite_override:
@@ -33,3 +34,4 @@ profiles:
   - 2
 liveries:
 - name: Default
+usage: TRAM

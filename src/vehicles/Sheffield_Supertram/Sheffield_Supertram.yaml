@@ -23,8 +23,10 @@ profiles:
   num_vehicles: 1
   capacity: 130
   types:
+  - train
   - tram
   name: 3
 liveries:
 - name: Stagecoach White
 - name: Stagecoach Blue
+usage: TRAM

@@ -21,7 +21,9 @@ profiles:
   num_vehicles: 1
   capacity: 60
   types:
+  - train
   - tram
   name: Wooden Tram
 liveries:
 - name: Default
+usage: TRAM

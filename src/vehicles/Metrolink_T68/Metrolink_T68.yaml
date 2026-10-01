@@ -21,6 +21,7 @@ profiles:
   num_vehicles: 2
   capacity: 120
   types:
+  - train
   - tram
   name: T68 Single Unit
 liveries:
@@ -28,3 +29,4 @@ liveries:
   sprite_override:
   - 1
   - 2
+usage: TRAM

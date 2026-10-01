@@ -54,6 +54,30 @@ params:
       0: Show Default OpenTTD road vehicles
       1: Hide Default OpenTTD road vehicles
 
+  - identifier: param_show_trams_as_trains
+    name_str: Show trams as trains
+    desc_str: Which tram vehicles should also be available as trains?
+    min_value: 0
+    max_value: 2
+    def_value: 0
+    names:
+      0: Never
+      1: Tram-trains only
+      2: Always
+
+  - identifier: param_show_trains_as_trams
+    name_str: Show trains as trams
+    desc_str: Which train vehicles should also be available as trams?
+    min_value: 0
+    max_value: 4
+    def_value: 0
+    names:
+      0: Never
+      1: Light vehicles only
+      2: Light vehicles and London Underground
+      3: Metro trains
+      4: Metro and suburban trains
+
 global_vehicle_switches: []
 
 global_actions:
@@ -61,3 +85,21 @@ global_actions:
     action: disable_item(FEAT_TRAINS)
   - condition: param_disable_default_roadvehicles == 1
     action: disable_item(FEAT_ROADVEHS)
+
+usage_filters:
+  - feature: FEAT_TRAINS
+    parameter: param_show_trams_as_trains
+    default_minimum: 2
+    minimum:
+      TRAM_TRAIN: 1
+      TRAM: 2
+  - feature: FEAT_ROADVEHS
+    parameter: param_show_trains_as_trams
+    minimum:
+      LIGHT_RAIL: 1
+      UNDERGROUND: 2
+      METRO: 3
+      SUBURBAN: 4
+      COMMUTER: 4
+      LOCAL: 4
+      REGIONAL: 4

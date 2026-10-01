@@ -22,7 +22,9 @@ profiles:
   num_vehicles: 1
   capacity: 90
   types:
+  - train
   - tram
   name: Standard 147
 liveries:
 - name: Default
+usage: TRAM

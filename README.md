@@ -12,6 +12,8 @@ BRBUILD_DIR=/path/to/BRBuild .venv/bin/python build.py --log
 
 `BRBuild.yaml` enables the BRBuild documentation manifest. A successful build writes `docs/generated/manifest.json` for BRdocs consumers.
 
+BRMetro emits every vehicle in both the train and tram features. The GRF parameters **Show trams as trains** and **Show trains as trams** disable the alternate feature by vehicle ID according to each vehicle's `usage` category.
+
 ## Layout
 
 - `BRBuild.yaml` — BRBuild project manifest

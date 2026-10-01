@@ -21,6 +21,7 @@ profiles:
   num_vehicles: 1
   capacity: 150
   types:
+  - train
   - tram
   name: 1-car Urbos
 liveries:
@@ -31,3 +32,4 @@ liveries:
   - 4
   - 3
   - 2
+usage: TRAM

@@ -21,6 +21,7 @@ profiles:
   num_vehicles: 1
   capacity: 140
   types:
+  - train
   - tram
   name: CR4000 Tram
 liveries:
@@ -28,3 +29,4 @@ liveries:
   sprite_override:
   - 1
   - 2
+usage: TRAM

@@ -22,6 +22,7 @@ profiles:
   capacity: 1435
   types:
   - train
+  - tram
   name: London Underground S7 Stock
   power: 4160
   sprite_override:
@@ -37,6 +38,7 @@ profiles:
   capacity: 1640
   types:
   - train
+  - tram
   name: London Underground S8 Stock
   power: 4992
   sprite_group: s7
@@ -54,3 +56,4 @@ liveries:
   profiles:
   - s7
   - s8
+usage: UNDERGROUND

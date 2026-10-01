@@ -22,9 +22,11 @@ profiles:
   num_vehicles: 1
   capacity: 80
   types:
+  - train
   - tram
   name: Single Brush
 liveries:
 - name: Blackpool Green
 - name: Royal Mail
 - name: Royal Mail Advert Board
+usage: TRAM
