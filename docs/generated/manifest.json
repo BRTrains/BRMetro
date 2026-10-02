@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "9ff87161fe30a83516fc4636549264354250cafe",
-  "generated_at": "2026-10-02T23:17:25.853866Z",
+  "generated_at": "2026-10-02T23:22:45.808508Z",
   "liveries": [
     {
       "name": "Default",
@@ -718,8 +718,8 @@
       "special_tags": [],
       "spritesheet": null,
       "variants": [
-        "nottingham_citadis_standard_default_train",
-        "nottingham_citadis_standard_default_tram"
+        "nottingham_citadis_standard_default_train_v2",
+        "nottingham_citadis_standard_default_tram_v2"
       ],
       "vehicle_identifier": "nottingham_citadis"
     },
@@ -776,8 +776,8 @@
       "special_tags": [],
       "spritesheet": null,
       "variants": [
-        "london_variobahn_standard_default_train_v2",
-        "london_variobahn_standard_default_tram"
+        "london_variobahn_standard_default_train_v3",
+        "london_variobahn_standard_default_tram_v2"
       ],
       "vehicle_identifier": "london_variobahn"
     },
@@ -2130,8 +2130,8 @@
       "sprite_group": null,
       "spritesheet": null,
       "variants": [
-        "nottingham_citadis_standard_default_train",
-        "nottingham_citadis_standard_default_tram"
+        "nottingham_citadis_standard_default_train_v2",
+        "nottingham_citadis_standard_default_tram_v2"
       ],
       "vehicle_identifier": "nottingham_citadis"
     },
@@ -2324,10 +2324,10 @@
         "speed": 70,
         "sprite_pattern": [
           1,
+          2,
           3,
           4,
-          3,
-          2
+          5
         ],
         "track_type": [
           "ELRL"
@@ -2341,8 +2341,8 @@
       "sprite_group": null,
       "spritesheet": null,
       "variants": [
-        "london_variobahn_standard_default_train_v2",
-        "london_variobahn_standard_default_tram"
+        "london_variobahn_standard_default_train_v3",
+        "london_variobahn_standard_default_tram_v2"
       ],
       "vehicle_identifier": "london_variobahn"
     },
@@ -50296,9 +50296,9 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_nottingham_citadis_Nottingham_Citadis_0_Nottingham_Citadis_16_Nottingham_Citadis_32_Nottingham_Citadis_48_Nottingham_Citadis_64.png"
+          "path": "WorkingData/BRMetro/purchase_nottingham_citadis_Nottingham_Citadis_0_Nottingham_Citadis_16_Nottingham_Citadis_32_Nottingham_Citadis_46_Nottingham_Citadis_62.png"
         },
-        "name": "spriteset_nottingham_citadis_standard_default_train_purchase",
+        "name": "spriteset_nottingham_citadis_standard_default_train_v2_purchase",
         "rows": [
           {
             "flags": [],
@@ -50324,515 +50324,7 @@
         "source": null
       },
       "sprite_id": {
-        "generation": 1,
-        "id": 1150
-      },
-      "spritesets": [
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
-          },
-          "length": 3,
-          "order": 0,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_train_0",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 0
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
-          },
-          "length": 3,
-          "order": 1,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y16",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_train_1",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 16
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
-          },
-          "length": 3,
-          "order": 2,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_train_2",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 32
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
-          },
-          "length": 3,
-          "order": 3,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y48",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_train_3",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 48
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
-          },
-          "length": 2,
-          "order": 4,
-          "rows": [
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 10
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 20,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 9
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 30,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 10
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 41,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 50,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 10
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 61,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 9
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 10
-            }
-          ],
-          "source_name": "spriteset_y64",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_train_4",
-          "template": "tmpl_tram_2",
-          "x": 0,
-          "y": 64
-        }
-      ],
-      "variant": {
-        "display_name": "Nottingham Citadis 302 - {SILVER}5-car{BLACK}",
-        "graphics_emitted": true,
-        "identifier": "nottingham_citadis_standard_default_train",
-        "nml_filename": {
-          "kind": "nml",
-          "path": "nottingham_citadis_standard_default_train.gnml"
-        },
-        "vehicle_type": "TRAIN"
-      },
-      "vehicle": {
-        "identifier": "nottingham_citadis",
-        "name": "Nottingham Citadis 302"
-      }
-    },
-    {
-      "formation": {
-        "part_count": 5,
-        "sprite_pattern": [
-          1,
-          2,
-          3,
-          4,
-          5
-        ]
-      },
-      "lighting": {
-        "overlay": null,
-        "transparent": null
-      },
-      "livery": {
-        "name": "Default"
-      },
-      "profile": {
-        "identifier": "standard",
-        "name": "Citadis"
-      },
-      "purchase": {
-        "file": {
-          "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_nottingham_citadis_Nottingham_Citadis_0_Nottingham_Citadis_16_Nottingham_Citadis_32_Nottingham_Citadis_48_Nottingham_Citadis_64.png"
-        },
-        "name": "spriteset_nottingham_citadis_standard_default_tram_purchase",
-        "rows": [
-          {
-            "flags": [],
-            "height": 13,
-            "left_x": 0,
-            "offset_x": -25,
-            "offset_y": -8,
-            "upper_y": 0,
-            "width": 128
-          }
-        ],
-        "template": "tmpl_purchase",
-        "x": 0,
-        "y": 0
-      },
-      "source_restrictions": {
-        "livery_profiles": [],
-        "livery_spritesheet": null,
-        "profile_spritesheet": null
-      },
-      "sprite_group": {
-        "reused": false,
-        "source": null
-      },
-      "sprite_id": {
-        "generation": 1,
+        "generation": 2,
         "id": 1049
       },
       "spritesets": [
@@ -50918,7 +50410,7 @@
             }
           ],
           "source_name": "spriteset_y0",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_0",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_train_v2_0",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 0
@@ -51005,7 +50497,7 @@
             }
           ],
           "source_name": "spriteset_y16",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_1",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_train_v2_1",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 16
@@ -51015,12 +50507,12 @@
             "kind": "spritesheet",
             "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
           },
-          "length": 3,
+          "length": 2,
           "order": 2,
           "rows": [
             {
               "flags": [],
-              "height": 15,
+              "height": 13,
               "left_x": 0,
               "offset_x": 0,
               "offset_y": 0,
@@ -51029,35 +50521,35 @@
             },
             {
               "flags": [],
-              "height": 14,
+              "height": 13,
               "left_x": 9,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
               "height": 13,
-              "left_x": 22,
+              "left_x": 20,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
+              "width": 9
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 36,
+              "height": 13,
+              "left_x": 30,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
-              "height": 15,
-              "left_x": 49,
+              "height": 13,
+              "left_x": 41,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
@@ -51065,12 +50557,21 @@
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 58,
+              "height": 13,
+              "left_x": 50,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
             },
             {
               "flags": [],
@@ -51079,21 +50580,12 @@
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
+              "width": 10
             }
           ],
           "source_name": "spriteset_y32",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_2",
-          "template": "tmpl_tram_3",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_train_v2_2",
+          "template": "tmpl_tram_2",
           "x": 0,
           "y": 32
         },
@@ -51178,11 +50670,345 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y48",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_3",
+          "source_name": "spriteset_y46",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_train_v2_3",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 48
+          "y": 46
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
+          },
+          "length": 3,
+          "order": 4,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y62",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_train_v2_4",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 62
+        }
+      ],
+      "variant": {
+        "display_name": "Nottingham Citadis 302 - {SILVER}5-car{BLACK}",
+        "graphics_emitted": true,
+        "identifier": "nottingham_citadis_standard_default_train_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "nottingham_citadis_standard_default_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "nottingham_citadis",
+        "name": "Nottingham Citadis 302"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 5,
+        "sprite_pattern": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Default"
+      },
+      "profile": {
+        "identifier": "standard",
+        "name": "Citadis"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_nottingham_citadis_Nottingham_Citadis_0_Nottingham_Citadis_16_Nottingham_Citadis_32_Nottingham_Citadis_46_Nottingham_Citadis_62.png"
+        },
+        "name": "spriteset_nottingham_citadis_standard_default_tram_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1054
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
+          },
+          "length": 3,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_v2_0",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
+          },
+          "length": 3,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y16",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_v2_1",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 16
         },
         {
           "file": {
@@ -51190,7 +51016,7 @@
             "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
           },
           "length": 2,
-          "order": 4,
+          "order": 2,
           "rows": [
             {
               "flags": [],
@@ -51265,20 +51091,194 @@
               "width": 10
             }
           ],
-          "source_name": "spriteset_y64",
-          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_4",
+          "source_name": "spriteset_y32",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_v2_2",
           "template": "tmpl_tram_2",
           "x": 0,
-          "y": 64
+          "y": 32
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
+          },
+          "length": 3,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y46",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_v2_3",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 46
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/nottingham_citadis/Nottingham_Citadis.png"
+          },
+          "length": 3,
+          "order": 4,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y62",
+          "spriteset": "spriteset_nottingham_citadis_standard_default_tram_v2_4",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 62
         }
       ],
       "variant": {
         "display_name": "Nottingham Citadis 302 - {SILVER}5-car{BLACK}",
         "graphics_emitted": true,
-        "identifier": "nottingham_citadis_standard_default_tram",
+        "identifier": "nottingham_citadis_standard_default_tram_v2",
         "nml_filename": {
           "kind": "nml",
-          "path": "nottingham_citadis_standard_default_tram.gnml"
+          "path": "nottingham_citadis_standard_default_tram_v2.gnml"
         },
         "vehicle_type": "TRAM"
       },
@@ -54410,10 +54410,10 @@
         "part_count": 5,
         "sprite_pattern": [
           1,
+          2,
           3,
           4,
-          3,
-          2
+          5
         ]
       },
       "lighting": {
@@ -54430,9 +54430,9 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_london_variobahn_London_Variobahn_0_London_Variobahn_32_London_Variobahn_48_London_Variobahn_32_London_Variobahn_16.png"
+          "path": "WorkingData/BRMetro/purchase_london_variobahn_London_Variobahn_0_London_Variobahn_16_London_Variobahn_32_London_Variobahn_46_London_Variobahn_62.png"
         },
-        "name": "spriteset_london_variobahn_standard_default_train_v2_purchase",
+        "name": "spriteset_london_variobahn_standard_default_train_v3_purchase",
         "rows": [
           {
             "flags": [],
@@ -54458,7 +54458,7 @@
         "source": null
       },
       "sprite_id": {
-        "generation": 2,
+        "generation": 3,
         "id": 1118
       },
       "spritesets": [
@@ -54544,7 +54544,7 @@
             }
           ],
           "source_name": "spriteset_y0",
-          "spriteset": "spriteset_london_variobahn_standard_default_train_v2_0",
+          "spriteset": "spriteset_london_variobahn_standard_default_train_v3_0",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 0
@@ -54630,23 +54630,23 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_london_variobahn_standard_default_train_v2_1",
+          "source_name": "spriteset_y16",
+          "spriteset": "spriteset_london_variobahn_standard_default_train_v3_1",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 32
+          "y": 16
         },
         {
           "file": {
             "kind": "spritesheet",
             "path": "WorkingData/BRMetro/palette/london_variobahn/London_Variobahn.png"
           },
-          "length": 3,
+          "length": 2,
           "order": 2,
           "rows": [
             {
               "flags": [],
-              "height": 15,
+              "height": 13,
               "left_x": 0,
               "offset_x": 0,
               "offset_y": 0,
@@ -54655,35 +54655,35 @@
             },
             {
               "flags": [],
-              "height": 14,
+              "height": 13,
               "left_x": 9,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
               "height": 13,
-              "left_x": 22,
+              "left_x": 20,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
+              "width": 9
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 36,
+              "height": 13,
+              "left_x": 30,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
-              "height": 15,
-              "left_x": 49,
+              "height": 13,
+              "left_x": 41,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
@@ -54691,12 +54691,21 @@
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 58,
+              "height": 13,
+              "left_x": 50,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
             },
             {
               "flags": [],
@@ -54705,23 +54714,14 @@
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
+              "width": 10
             }
           ],
-          "source_name": "spriteset_y48",
-          "spriteset": "spriteset_london_variobahn_standard_default_train_v2_2",
-          "template": "tmpl_tram_3",
+          "source_name": "spriteset_y32",
+          "spriteset": "spriteset_london_variobahn_standard_default_train_v3_2",
+          "template": "tmpl_tram_2",
           "x": 0,
-          "y": 48
+          "y": 32
         },
         {
           "file": {
@@ -54804,11 +54804,11 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_london_variobahn_standard_default_train_v2_1",
+          "source_name": "spriteset_y46",
+          "spriteset": "spriteset_london_variobahn_standard_default_train_v3_3",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 32
+          "y": 46
         },
         {
           "file": {
@@ -54891,20 +54891,20 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y16",
-          "spriteset": "spriteset_london_variobahn_standard_default_train_v2_3",
+          "source_name": "spriteset_y62",
+          "spriteset": "spriteset_london_variobahn_standard_default_train_v3_4",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 16
+          "y": 62
         }
       ],
       "variant": {
         "display_name": "London Variobahn - {SILVER}5-car{BLACK}",
         "graphics_emitted": true,
-        "identifier": "london_variobahn_standard_default_train_v2",
+        "identifier": "london_variobahn_standard_default_train_v3",
         "nml_filename": {
           "kind": "nml",
-          "path": "london_variobahn_standard_default_train_v2.gnml"
+          "path": "london_variobahn_standard_default_train_v3.gnml"
         },
         "vehicle_type": "TRAIN"
       },
@@ -54918,10 +54918,10 @@
         "part_count": 5,
         "sprite_pattern": [
           1,
+          2,
           3,
           4,
-          3,
-          2
+          5
         ]
       },
       "lighting": {
@@ -54938,9 +54938,9 @@
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_london_variobahn_London_Variobahn_0_London_Variobahn_32_London_Variobahn_48_London_Variobahn_32_London_Variobahn_16.png"
+          "path": "WorkingData/BRMetro/purchase_london_variobahn_London_Variobahn_0_London_Variobahn_16_London_Variobahn_32_London_Variobahn_46_London_Variobahn_62.png"
         },
-        "name": "spriteset_london_variobahn_standard_default_tram_purchase",
+        "name": "spriteset_london_variobahn_standard_default_tram_v2_purchase",
         "rows": [
           {
             "flags": [],
@@ -54966,8 +54966,8 @@
         "source": null
       },
       "sprite_id": {
-        "generation": 1,
-        "id": 1054
+        "generation": 2,
+        "id": 1119
       },
       "spritesets": [
         {
@@ -55052,7 +55052,7 @@
             }
           ],
           "source_name": "spriteset_y0",
-          "spriteset": "spriteset_london_variobahn_standard_default_tram_0",
+          "spriteset": "spriteset_london_variobahn_standard_default_tram_v2_0",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 0
@@ -55138,23 +55138,23 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_london_variobahn_standard_default_tram_1",
+          "source_name": "spriteset_y16",
+          "spriteset": "spriteset_london_variobahn_standard_default_tram_v2_1",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 32
+          "y": 16
         },
         {
           "file": {
             "kind": "spritesheet",
             "path": "WorkingData/BRMetro/palette/london_variobahn/London_Variobahn.png"
           },
-          "length": 3,
+          "length": 2,
           "order": 2,
           "rows": [
             {
               "flags": [],
-              "height": 15,
+              "height": 13,
               "left_x": 0,
               "offset_x": 0,
               "offset_y": 0,
@@ -55163,35 +55163,35 @@
             },
             {
               "flags": [],
-              "height": 14,
+              "height": 13,
               "left_x": 9,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
               "height": 13,
-              "left_x": 22,
+              "left_x": 20,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
+              "width": 9
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 36,
+              "height": 13,
+              "left_x": 30,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
-              "height": 15,
-              "left_x": 49,
+              "height": 13,
+              "left_x": 41,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
@@ -55199,12 +55199,21 @@
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 58,
+              "height": 13,
+              "left_x": 50,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
             },
             {
               "flags": [],
@@ -55213,23 +55222,14 @@
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
+              "width": 10
             }
           ],
-          "source_name": "spriteset_y48",
-          "spriteset": "spriteset_london_variobahn_standard_default_tram_2",
-          "template": "tmpl_tram_3",
+          "source_name": "spriteset_y32",
+          "spriteset": "spriteset_london_variobahn_standard_default_tram_v2_2",
+          "template": "tmpl_tram_2",
           "x": 0,
-          "y": 48
+          "y": 32
         },
         {
           "file": {
@@ -55312,11 +55312,11 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_london_variobahn_standard_default_tram_1",
+          "source_name": "spriteset_y46",
+          "spriteset": "spriteset_london_variobahn_standard_default_tram_v2_3",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 32
+          "y": 46
         },
         {
           "file": {
@@ -55399,20 +55399,20 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y16",
-          "spriteset": "spriteset_london_variobahn_standard_default_tram_3",
+          "source_name": "spriteset_y62",
+          "spriteset": "spriteset_london_variobahn_standard_default_tram_v2_4",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 16
+          "y": 62
         }
       ],
       "variant": {
         "display_name": "London Variobahn - {SILVER}5-car{BLACK}",
         "graphics_emitted": true,
-        "identifier": "london_variobahn_standard_default_tram",
+        "identifier": "london_variobahn_standard_default_tram_v2",
         "nml_filename": {
           "kind": "nml",
-          "path": "london_variobahn_standard_default_tram.gnml"
+          "path": "london_variobahn_standard_default_tram_v2.gnml"
         },
         "vehicle_type": "TRAM"
       },

@@ -45479,14 +45479,14 @@ variants:
       - {SILVER}6-car{BLACK} - {GOLD}Pre-refurb TfL
     str_d78_standard_pre_refurb_tfl_tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}Pre-refurb
       TfL'
-- id: 1049
+- id: null
   vehicle: nottingham_citadis
   profile: standard
   livery: default
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 250
@@ -45599,14 +45599,14 @@ variants:
     str_metrolink_m5000_double_default_tram_name: Metrolink M5000 - {SILVER}4-car{BLACK}
     str_metrolink_m5000_double_default_tram_group_name: Metrolink M5000 - {SILVER}4-car{BLACK}
     str_metrolink_m5000_double_default_tram_nested_name: '{SILVER}4-car{BLACK}'
-- id: 1054
+- id: null
   vehicle: london_variobahn
   profile: standard
   livery: default
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 120
@@ -48465,14 +48465,14 @@ variants:
       TfL'
     str_d78_standard_pre_refurb_tfl_tram_v2_name: London Underground D78 Stock - {SILVER}6-car{BLACK}
       - {GOLD}Pre-refurb TfL
-- id: 1150
+- id: null
   vehicle: nottingham_citadis
   profile: standard
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 250
@@ -49411,14 +49411,14 @@ variants:
       - {GOLD}DLR Turquoise
     str_b23_default_dlr_turquoise_train_v2_nested_name: '{SILVER}5-car{BLACK} - {GOLD}DLR
       Turquoise'
-- id: 1118
+- id: null
   vehicle: london_variobahn
   profile: standard
   livery: default
   vehicle_type: train
   generation: 2
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 120
@@ -49437,3 +49437,109 @@ variants:
     str_london_variobahn_standard_default_train_v2_name: London Variobahn - {SILVER}5-car{BLACK}
     str_london_variobahn_standard_default_train_v2_group_name: London Variobahn -
       {SILVER}5-car{BLACK}
+- id: 1049
+  vehicle: nottingham_citadis
+  profile: standard
+  livery: default
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 250
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1049_nottingham_citadis_standard_default_train_v2.gnml
+  identifier: nottingham_citadis_standard_default_train_v2
+  name_string: str_nottingham_citadis_standard_default_train_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_nottingham_citadis_standard_default_train_v2_name: Nottingham Citadis 302
+      - {SILVER}5-car{BLACK}
+    str_nottingham_citadis_standard_default_train_v2_group_name: Nottingham Citadis
+      302 - {SILVER}5-car{BLACK}
+- id: 1054
+  vehicle: nottingham_citadis
+  profile: standard
+  livery: default
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 250
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1054_nottingham_citadis_standard_default_tram_v2.gnml
+  identifier: nottingham_citadis_standard_default_tram_v2
+  name_string: str_nottingham_citadis_standard_default_tram_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_nottingham_citadis_standard_default_train_v2_group_name: Nottingham Citadis
+      302 - {SILVER}5-car{BLACK}
+    str_nottingham_citadis_standard_default_tram_v2_name: Nottingham Citadis 302 -
+      {SILVER}5-car{BLACK}
+- id: 1118
+  vehicle: london_variobahn
+  profile: standard
+  livery: default
+  vehicle_type: train
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1118_london_variobahn_standard_default_train_v3.gnml
+  identifier: london_variobahn_standard_default_train_v3
+  name_string: str_london_variobahn_standard_default_train_v3_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_london_variobahn_standard_default_train_v3_name: London Variobahn - {SILVER}5-car{BLACK}
+    str_london_variobahn_standard_default_train_v3_group_name: London Variobahn -
+      {SILVER}5-car{BLACK}
+- id: 1119
+  vehicle: london_variobahn
+  profile: standard
+  livery: default
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1119_london_variobahn_standard_default_tram_v2.gnml
+  identifier: london_variobahn_standard_default_tram_v2
+  name_string: str_london_variobahn_standard_default_tram_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_london_variobahn_standard_default_train_v3_group_name: London Variobahn -
+      {SILVER}5-car{BLACK}
+    str_london_variobahn_standard_default_tram_v2_name: London Variobahn - {SILVER}5-car{BLACK}
