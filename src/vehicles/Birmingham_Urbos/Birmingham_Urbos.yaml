@@ -20,10 +20,9 @@ dates:
   vehicle_life: 40
 profiles:
 - identifier: single
-  num_vehicles: 1
+  num_vehicles: 5
   capacity: 150
   types:
-  - train
   - tram
   name: 5-car
   sprite_override:

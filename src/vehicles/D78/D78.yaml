@@ -38,10 +38,10 @@ profiles:
   sprite_override:
   - 1
   - 2
-  - 3
+  - 2
+  - 2
   - 2
   - 3
-  - 2
   sprite_group: short
 liveries:
 - name: TfL

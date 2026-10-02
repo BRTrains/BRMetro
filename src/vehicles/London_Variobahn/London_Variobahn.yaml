@@ -18,10 +18,9 @@ dates:
   vehicle_life: 45
 profiles:
 - identifier: standard
-  num_vehicles: 1
+  num_vehicles: 5
   capacity: 120
   types:
-  - train
   - tram
   name: Variobahn Tram
 liveries:

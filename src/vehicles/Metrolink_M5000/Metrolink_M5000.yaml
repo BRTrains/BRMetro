@@ -32,7 +32,6 @@ profiles:
   num_vehicles: 4
   capacity: 130
   types:
-  - train
   - tram
   name: M5000 Double Unit
   sprite_override:

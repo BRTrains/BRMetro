@@ -24,11 +24,8 @@ profiles:
   capacity: 141
   sprite_override:
   - 1
-  - 2
-  - 2
-  - 2
-  - 2
   - 3
+  - 2
   types:
   - train
   - tram

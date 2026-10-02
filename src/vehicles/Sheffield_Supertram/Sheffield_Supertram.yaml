@@ -20,12 +20,15 @@ dates:
   vehicle_life: 45
 profiles:
 - identifier: standard
-  num_vehicles: 1
+  num_vehicles: 3
   capacity: 130
   types:
-  - train
   - tram
   name: 3
+  sprite_override:
+  - 1
+  - 3
+  - 2
 liveries:
 - name: Stagecoach White
 - name: Stagecoach Blue

@@ -44371,27 +44371,29 @@ variants:
   deprecated: false
   compatibility:
     capacity: 130
-    articulated_count: 1
+    articulated_count: 3
     lengths:
+    - 5
+    - 5
     - 5
   archive: generated_variants/1005_sheffield_supertram_standard_stagecoach_white_tram.gnml
   identifier: sheffield_supertram_standard_stagecoach_white_tram
   name_string: str_sheffield_supertram_standard_stagecoach_white_tram_name
   strings:
-    str_sheffield_supertram_standard_stagecoach_white_train_group_name: Sheffield
-      Supertram - {SILVER}1-car{BLACK} - {GOLD}Stagecoach White
-    str_sheffield_supertram_standard_stagecoach_white_train_nested_name: '{SILVER}1-car{BLACK}
-      - {GOLD}Stagecoach White'
     str_sheffield_supertram_standard_stagecoach_white_tram_name: Sheffield Supertram
-      - {SILVER}1-car{BLACK} - {GOLD}Stagecoach White
-- id: 1006
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
+    str_sheffield_supertram_standard_stagecoach_white_tram_group_name: Sheffield Supertram
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
+    str_sheffield_supertram_standard_stagecoach_white_tram_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach White'
+- id: null
   vehicle: sheffield_supertram
   profile: standard
   livery: stagecoach blue
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 130
@@ -44735,11 +44737,11 @@ variants:
   identifier: b90_double_dlr_blue_tram
   name_string: str_b90_double_dlr_blue_tram_name
   strings:
-    str_b90_double_dlr_blue_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}DLR Blue
-    str_b90_double_dlr_blue_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
     str_b90_double_dlr_blue_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK} - {GOLD}DLR
       Blue
+    str_b90_double_dlr_blue_tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}DLR Blue
+    str_b90_double_dlr_blue_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
 - id: 1020
   vehicle: b90
   profile: double
@@ -44759,12 +44761,12 @@ variants:
   identifier: b90_double_dlr_turquoise_tram
   name_string: str_b90_double_dlr_turquoise_tram_name
   strings:
-    str_b90_double_dlr_turquoise_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}DLR Turquoise
-    str_b90_double_dlr_turquoise_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
-      Turquoise'
     str_b90_double_dlr_turquoise_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK} -
       {GOLD}DLR Turquoise
+    str_b90_double_dlr_turquoise_tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}DLR Turquoise
+    str_b90_double_dlr_turquoise_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
+      Turquoise'
 - id: 1021
   vehicle: b90
   profile: double
@@ -44784,12 +44786,12 @@ variants:
   identifier: b90_double_dlr_red__red_front__tram
   name_string: str_b90_double_dlr_red__red_front__tram_name
   strings:
-    str_b90_double_dlr_red__red_front__train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}DLR Red Red Front
-    str_b90_double_dlr_red__red_front__train_nested_name: '{SILVER}4-car{BLACK} -
-      {GOLD}DLR Red Red Front'
     str_b90_double_dlr_red__red_front__tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}DLR Red Red Front
+    str_b90_double_dlr_red__red_front__tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}DLR Red Red Front
+    str_b90_double_dlr_red__red_front__tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
+      Red Red Front'
 - id: 1022
   vehicle: b90
   profile: double
@@ -44809,12 +44811,12 @@ variants:
   identifier: b90_double_general_electric_advert_tram
   name_string: str_b90_double_general_electric_advert_tram_name
   strings:
-    str_b90_double_general_electric_advert_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}General Electric advert
-    str_b90_double_general_electric_advert_train_nested_name: '{SILVER}4-car{BLACK}
-      - {GOLD}General Electric advert'
     str_b90_double_general_electric_advert_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}General Electric advert
+    str_b90_double_general_electric_advert_tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}General Electric advert
+    str_b90_double_general_electric_advert_tram_nested_name: '{SILVER}4-car{BLACK}
+      - {GOLD}General Electric advert'
 - id: 1023
   vehicle: b90
   profile: double
@@ -44834,12 +44836,12 @@ variants:
   identifier: b90_double_dlr_red__black_front__tram
   name_string: str_b90_double_dlr_red__black_front__tram_name
   strings:
-    str_b90_double_dlr_red__black_front__train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}DLR Red Black Front
-    str_b90_double_dlr_red__black_front__train_nested_name: '{SILVER}4-car{BLACK}
-      - {GOLD}DLR Red Black Front'
     str_b90_double_dlr_red__black_front__tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}DLR Red Black Front
+    str_b90_double_dlr_red__black_front__tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}DLR Red Black Front
+    str_b90_double_dlr_red__black_front__tram_nested_name: '{SILVER}4-car{BLACK} -
+      {GOLD}DLR Red Black Front'
 - id: 1024
   vehicle: b90
   profile: double
@@ -44861,12 +44863,12 @@ variants:
   identifier: b90_double_london_olympics_tram
   name_string: str_b90_double_london_olympics_tram_name
   strings:
-    str_b90_double_london_olympics_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}London Olympics
-    str_b90_double_london_olympics_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}London
-      Olympics'
     str_b90_double_london_olympics_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}London Olympics
+    str_b90_double_london_olympics_tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}London Olympics
+    str_b90_double_london_olympics_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}London
+      Olympics'
 - id: 1025
   vehicle: b90
   profile: double
@@ -44886,12 +44888,12 @@ variants:
   identifier: b90_double_dlr_red__pride_tram
   name_string: str_b90_double_dlr_red__pride_tram_name
   strings:
-    str_b90_double_dlr_red__pride_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}DLR Red Pride
-    str_b90_double_dlr_red__pride_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
-      Red Pride'
     str_b90_double_dlr_red__pride_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}DLR Red Pride
+    str_b90_double_dlr_red__pride_tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}DLR Red Pride
+    str_b90_double_dlr_red__pride_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
+      Red Pride'
 - id: 1026
   vehicle: b90
   profile: double
@@ -44911,12 +44913,12 @@ variants:
   identifier: b90_double_tour_de_france_advert_tram
   name_string: str_b90_double_tour_de_france_advert_tram_name
   strings:
-    str_b90_double_tour_de_france_advert_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}Tour De France advert
-    str_b90_double_tour_de_france_advert_train_nested_name: '{SILVER}4-car{BLACK}
-      - {GOLD}Tour De France advert'
     str_b90_double_tour_de_france_advert_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}Tour De France advert
+    str_b90_double_tour_de_france_advert_tram_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
+      - {GOLD}Tour De France advert
+    str_b90_double_tour_de_france_advert_tram_nested_name: '{SILVER}4-car{BLACK} -
+      {GOLD}Tour De France advert'
 - id: 1027
   vehicle: b90
   profile: double
@@ -44936,12 +44938,12 @@ variants:
   identifier: b90_double_lewisham_shopping_centre_advert_tram
   name_string: str_b90_double_lewisham_shopping_centre_advert_tram_name
   strings:
-    str_b90_double_lewisham_shopping_centre_advert_train_group_name: DLR B90 Stock
-      - {SILVER}4-car{BLACK} - {GOLD}Lewisham Shopping Centre advert
-    str_b90_double_lewisham_shopping_centre_advert_train_nested_name: '{SILVER}4-car{BLACK}
-      - {GOLD}Lewisham Shopping Centre advert'
     str_b90_double_lewisham_shopping_centre_advert_tram_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}Lewisham Shopping Centre advert
+    str_b90_double_lewisham_shopping_centre_advert_tram_group_name: DLR B90 Stock
+      - {SILVER}4-car{BLACK} - {GOLD}Lewisham Shopping Centre advert
+    str_b90_double_lewisham_shopping_centre_advert_tram_nested_name: '{SILVER}4-car{BLACK}
+      - {GOLD}Lewisham Shopping Centre advert'
 - id: 1028
   vehicle: b90
   profile: triple
@@ -44961,11 +44963,11 @@ variants:
   identifier: b90_triple_dlr_blue_tram
   name_string: str_b90_triple_dlr_blue_tram_name
   strings:
-    str_b90_triple_dlr_blue_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}DLR Blue
-    str_b90_triple_dlr_blue_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR Blue'
     str_b90_triple_dlr_blue_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK} - {GOLD}DLR
       Blue
+    str_b90_triple_dlr_blue_tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}DLR Blue
+    str_b90_triple_dlr_blue_tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR Blue'
 - id: 1029
   vehicle: b90
   profile: triple
@@ -44985,12 +44987,12 @@ variants:
   identifier: b90_triple_dlr_turquoise_tram
   name_string: str_b90_triple_dlr_turquoise_tram_name
   strings:
-    str_b90_triple_dlr_turquoise_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}DLR Turquoise
-    str_b90_triple_dlr_turquoise_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
-      Turquoise'
     str_b90_triple_dlr_turquoise_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK} -
       {GOLD}DLR Turquoise
+    str_b90_triple_dlr_turquoise_tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}DLR Turquoise
+    str_b90_triple_dlr_turquoise_tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
+      Turquoise'
 - id: 1030
   vehicle: b90
   profile: triple
@@ -45010,12 +45012,12 @@ variants:
   identifier: b90_triple_dlr_red__red_front__tram
   name_string: str_b90_triple_dlr_red__red_front__tram_name
   strings:
-    str_b90_triple_dlr_red__red_front__train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}DLR Red Red Front
-    str_b90_triple_dlr_red__red_front__train_nested_name: '{SILVER}6-car{BLACK} -
-      {GOLD}DLR Red Red Front'
     str_b90_triple_dlr_red__red_front__tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}DLR Red Red Front
+    str_b90_triple_dlr_red__red_front__tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}DLR Red Red Front
+    str_b90_triple_dlr_red__red_front__tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
+      Red Red Front'
 - id: 1031
   vehicle: b90
   profile: triple
@@ -45035,12 +45037,12 @@ variants:
   identifier: b90_triple_general_electric_advert_tram
   name_string: str_b90_triple_general_electric_advert_tram_name
   strings:
-    str_b90_triple_general_electric_advert_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}General Electric advert
-    str_b90_triple_general_electric_advert_train_nested_name: '{SILVER}6-car{BLACK}
-      - {GOLD}General Electric advert'
     str_b90_triple_general_electric_advert_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}General Electric advert
+    str_b90_triple_general_electric_advert_tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}General Electric advert
+    str_b90_triple_general_electric_advert_tram_nested_name: '{SILVER}6-car{BLACK}
+      - {GOLD}General Electric advert'
 - id: 1032
   vehicle: b90
   profile: triple
@@ -45060,12 +45062,12 @@ variants:
   identifier: b90_triple_dlr_red__black_front__tram
   name_string: str_b90_triple_dlr_red__black_front__tram_name
   strings:
-    str_b90_triple_dlr_red__black_front__train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}DLR Red Black Front
-    str_b90_triple_dlr_red__black_front__train_nested_name: '{SILVER}6-car{BLACK}
-      - {GOLD}DLR Red Black Front'
     str_b90_triple_dlr_red__black_front__tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}DLR Red Black Front
+    str_b90_triple_dlr_red__black_front__tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}DLR Red Black Front
+    str_b90_triple_dlr_red__black_front__tram_nested_name: '{SILVER}6-car{BLACK} -
+      {GOLD}DLR Red Black Front'
 - id: 1033
   vehicle: b90
   profile: triple
@@ -45087,12 +45089,12 @@ variants:
   identifier: b90_triple_london_olympics_tram
   name_string: str_b90_triple_london_olympics_tram_name
   strings:
-    str_b90_triple_london_olympics_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}London Olympics
-    str_b90_triple_london_olympics_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}London
-      Olympics'
     str_b90_triple_london_olympics_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}London Olympics
+    str_b90_triple_london_olympics_tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}London Olympics
+    str_b90_triple_london_olympics_tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}London
+      Olympics'
 - id: 1034
   vehicle: b90
   profile: triple
@@ -45112,12 +45114,12 @@ variants:
   identifier: b90_triple_dlr_red__pride_tram
   name_string: str_b90_triple_dlr_red__pride_tram_name
   strings:
-    str_b90_triple_dlr_red__pride_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}DLR Red Pride
-    str_b90_triple_dlr_red__pride_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
-      Red Pride'
     str_b90_triple_dlr_red__pride_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}DLR Red Pride
+    str_b90_triple_dlr_red__pride_tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}DLR Red Pride
+    str_b90_triple_dlr_red__pride_tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
+      Red Pride'
 - id: 1035
   vehicle: b90
   profile: triple
@@ -45137,12 +45139,12 @@ variants:
   identifier: b90_triple_tour_de_france_advert_tram
   name_string: str_b90_triple_tour_de_france_advert_tram_name
   strings:
-    str_b90_triple_tour_de_france_advert_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}Tour De France advert
-    str_b90_triple_tour_de_france_advert_train_nested_name: '{SILVER}6-car{BLACK}
-      - {GOLD}Tour De France advert'
     str_b90_triple_tour_de_france_advert_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}Tour De France advert
+    str_b90_triple_tour_de_france_advert_tram_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
+      - {GOLD}Tour De France advert
+    str_b90_triple_tour_de_france_advert_tram_nested_name: '{SILVER}6-car{BLACK} -
+      {GOLD}Tour De France advert'
 - id: 1036
   vehicle: b90
   profile: triple
@@ -45162,12 +45164,12 @@ variants:
   identifier: b90_triple_lewisham_shopping_centre_advert_tram
   name_string: str_b90_triple_lewisham_shopping_centre_advert_tram_name
   strings:
-    str_b90_triple_lewisham_shopping_centre_advert_train_group_name: DLR B90 Stock
-      - {SILVER}6-car{BLACK} - {GOLD}Lewisham Shopping Centre advert
-    str_b90_triple_lewisham_shopping_centre_advert_train_nested_name: '{SILVER}6-car{BLACK}
-      - {GOLD}Lewisham Shopping Centre advert'
     str_b90_triple_lewisham_shopping_centre_advert_tram_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}Lewisham Shopping Centre advert
+    str_b90_triple_lewisham_shopping_centre_advert_tram_group_name: DLR B90 Stock
+      - {SILVER}6-car{BLACK} - {GOLD}Lewisham Shopping Centre advert
+    str_b90_triple_lewisham_shopping_centre_advert_tram_nested_name: '{SILVER}6-car{BLACK}
+      - {GOLD}Lewisham Shopping Centre advert'
 - id: null
   vehicle: '1992'
   profile: four_car
@@ -45307,7 +45309,7 @@ variants:
   deprecated: false
   compatibility:
     capacity: 150
-    articulated_count: 1
+    articulated_count: 5
     lengths:
     - 3
     - 3
@@ -45318,9 +45320,9 @@ variants:
   identifier: birmingham_urbos_single_default_tram
   name_string: str_birmingham_urbos_single_default_tram_name
   strings:
-    str_glasgow_wooden_standard_default_train_nested_name: '{SILVER}1-car{BLACK}'
-    str_birmingham_urbos_single_default_train_group_name: Birmingham Urbos - {SILVER}1-car{BLACK}
-    str_birmingham_urbos_single_default_tram_name: Birmingham Urbos - {SILVER}1-car{BLACK}
+    str_birmingham_urbos_single_default_tram_name: Birmingham Urbos - {SILVER}5-car{BLACK}
+    str_birmingham_urbos_single_default_tram_group_name: Birmingham Urbos - {SILVER}5-car{BLACK}
+    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
 - id: 1043
   vehicle: edinburgh_urbos
   profile: single
@@ -45499,9 +45501,9 @@ variants:
   identifier: nottingham_citadis_standard_default_tram
   name_string: str_nottingham_citadis_standard_default_tram_name
   strings:
+    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
     str_nottingham_citadis_standard_default_train_group_name: Nottingham Citadis 302
       - {SILVER}5-car{BLACK}
-    str_nottingham_citadis_standard_default_train_nested_name: '{SILVER}5-car{BLACK}'
     str_nottingham_citadis_standard_default_tram_name: Nottingham Citadis 302 - {SILVER}5-car{BLACK}
 - id: 1050
   vehicle: london_cr4000
@@ -45536,7 +45538,7 @@ variants:
   deprecated: false
   compatibility:
     capacity: 792
-    articulated_count: 1
+    articulated_count: 5
     lengths:
     - 6
     - 6
@@ -45547,12 +45549,12 @@ variants:
   identifier: b23_default_dlr_turquoise_tram
   name_string: str_b23_default_dlr_turquoise_tram_name
   strings:
-    str_b23_default_dlr_turquoise_train_group_name: DLR B23 Stock - {SILVER}1-car{BLACK}
+    str_b23_default_dlr_turquoise_tram_name: DLR B23 Stock - {SILVER}5-car{BLACK}
       - {GOLD}DLR Turquoise
-    str_b23_default_dlr_turquoise_train_nested_name: '{SILVER}1-car{BLACK} - {GOLD}DLR
+    str_b23_default_dlr_turquoise_tram_group_name: DLR B23 Stock - {SILVER}5-car{BLACK}
+      - {GOLD}DLR Turquoise
+    str_b23_default_dlr_turquoise_tram_nested_name: '{SILVER}5-car{BLACK} - {GOLD}DLR
       Turquoise'
-    str_b23_default_dlr_turquoise_tram_name: DLR B23 Stock - {SILVER}1-car{BLACK}
-      - {GOLD}DLR Turquoise
 - id: 1052
   vehicle: metrolink_m5000
   profile: single
@@ -45594,9 +45596,9 @@ variants:
   identifier: metrolink_m5000_double_default_tram
   name_string: str_metrolink_m5000_double_default_tram_name
   strings:
-    str_metrolink_m5000_double_default_train_group_name: Metrolink M5000 - {SILVER}4-car{BLACK}
-    str_metrolink_m5000_double_default_train_nested_name: '{SILVER}4-car{BLACK}'
     str_metrolink_m5000_double_default_tram_name: Metrolink M5000 - {SILVER}4-car{BLACK}
+    str_metrolink_m5000_double_default_tram_group_name: Metrolink M5000 - {SILVER}4-car{BLACK}
+    str_metrolink_m5000_double_default_tram_nested_name: '{SILVER}4-car{BLACK}'
 - id: 1054
   vehicle: london_variobahn
   profile: standard
@@ -45608,7 +45610,7 @@ variants:
   deprecated: false
   compatibility:
     capacity: 120
-    articulated_count: 1
+    articulated_count: 5
     lengths:
     - 3
     - 3
@@ -45619,9 +45621,9 @@ variants:
   identifier: london_variobahn_standard_default_tram
   name_string: str_london_variobahn_standard_default_tram_name
   strings:
-    str_glasgow_wooden_standard_default_train_nested_name: '{SILVER}1-car{BLACK}'
-    str_london_variobahn_standard_default_train_group_name: London Variobahn - {SILVER}1-car{BLACK}
-    str_london_variobahn_standard_default_tram_name: London Variobahn - {SILVER}1-car{BLACK}
+    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
+    str_london_variobahn_standard_default_tram_name: London Variobahn - {SILVER}5-car{BLACK}
+    str_london_variobahn_standard_default_tram_group_name: London Variobahn - {SILVER}5-car{BLACK}
 - id: 1055
   vehicle: b07
   profile: single
@@ -45665,11 +45667,11 @@ variants:
   identifier: b07_double_dlr_red_tram
   name_string: str_b07_double_dlr_red_tram_name
   strings:
-    str_b07_double_dlr_red_train_group_name: DLR B07 Stock - {SILVER}4-car{BLACK}
-      - {GOLD}DLR Red
-    str_b07_double_dlr_red_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Red'
     str_b07_double_dlr_red_tram_name: DLR B07 Stock - {SILVER}4-car{BLACK} - {GOLD}DLR
       Red
+    str_b07_double_dlr_red_tram_group_name: DLR B07 Stock - {SILVER}4-car{BLACK} -
+      {GOLD}DLR Red
+    str_b07_double_dlr_red_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Red'
 - id: 1057
   vehicle: b07
   profile: triple
@@ -45689,11 +45691,11 @@ variants:
   identifier: b07_triple_dlr_red_tram
   name_string: str_b07_triple_dlr_red_tram_name
   strings:
-    str_b07_triple_dlr_red_train_group_name: DLR B07 Stock - {SILVER}6-car{BLACK}
-      - {GOLD}DLR Red
-    str_b07_triple_dlr_red_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR Red'
     str_b07_triple_dlr_red_tram_name: DLR B07 Stock - {SILVER}6-car{BLACK} - {GOLD}DLR
       Red
+    str_b07_triple_dlr_red_tram_group_name: DLR B07 Stock - {SILVER}6-car{BLACK} -
+      {GOLD}DLR Red
+    str_b07_triple_dlr_red_tram_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR Red'
 - id: null
   vehicle: lu_1992
   profile: four_car
@@ -46370,14 +46372,14 @@ variants:
       Roof
     str_lu_1938_default_london_underground__red_roof__train_v2_nested_name: '{SILVER}8-car{BLACK}
       - {GOLD}London Underground Red Roof'
-- id: 1070
+- id: null
   vehicle: lu_1938
   profile: default
   livery: london underground (grey roof)
   vehicle_type: train
   generation: 2
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 141
@@ -46474,12 +46476,12 @@ variants:
   identifier: br_399_default_stagecoach_blue_train_v2
   name_string: str_br_399_default_stagecoach_blue_train_v2_name
   strings:
+    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
     str_br_399_default_stagecoach_blue_train_v2_name: Class 399 "Sheffield Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
     str_br_399_default_stagecoach_blue_train_v2_group_name: Class 399 "Sheffield Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
-    str_br_399_default_stagecoach_blue_train_v2_nested_name: '{SILVER}3-car{BLACK}
-      - {GOLD}Stagecoach Blue'
 - id: 1074
   vehicle: br_399
   profile: default
@@ -46500,10 +46502,10 @@ variants:
   identifier: br_399_default_stagecoach_blue_tram_v2
   name_string: str_br_399_default_stagecoach_blue_tram_v2_name
   strings:
+    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
     str_br_399_default_stagecoach_blue_train_v2_group_name: Class 399 "Sheffield Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
-    str_br_399_default_stagecoach_blue_train_v2_nested_name: '{SILVER}3-car{BLACK}
-      - {GOLD}Stagecoach Blue'
     str_br_399_default_stagecoach_blue_tram_v2_name: Class 399 "Sheffield Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
 - id: 1075
@@ -46598,14 +46600,14 @@ variants:
       - {SILVER}8-car{BLACK} - {GOLD}London Underground
     str_lu_2009_2009_8_london_underground_train_v2_group_name: London Underground
       2009 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground
-- id: 1078
+- id: null
   vehicle: lu_1995
   profile: '1995_6'
   livery: london underground
   vehicle_type: train
   generation: 2
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 141
@@ -46888,7 +46890,7 @@ variants:
   identifier: dlr_p86_default_dlr_blue_tram_v2
   name_string: str_dlr_p86_default_dlr_blue_tram_v2_name
   strings:
-    str_b90_double_dlr_blue_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
+    str_b90_double_dlr_blue_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
     str_dlr_p86_default_dlr_blue_train_group_name: Docklands Light Railway P86 - {SILVER}4-car{BLACK}
       - {GOLD}DLR Blue
     str_dlr_p86_default_dlr_blue_tram_v2_name: Docklands Light Railway P86 - {SILVER}4-car{BLACK}
@@ -47129,38 +47131,40 @@ variants:
       - {GOLD}London Underground'
     str_lu_1967_1967_8_london_underground_tram_name: London Underground 1967 Stock
       - {SILVER}8-car{BLACK} - {GOLD}London Underground
-- id: 1099
+- id: null
   vehicle: sheffield_supertram
   profile: standard
   livery: stagecoach white
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 130
-    articulated_count: 1
+    articulated_count: 3
     lengths:
+    - 5
+    - 5
     - 5
   archive: generated_variants/1099_sheffield_supertram_standard_stagecoach_white_train.gnml
   identifier: sheffield_supertram_standard_stagecoach_white_train
   name_string: str_sheffield_supertram_standard_stagecoach_white_train_name
   strings:
     str_sheffield_supertram_standard_stagecoach_white_train_name: Sheffield Supertram
-      - {SILVER}1-car{BLACK} - {GOLD}Stagecoach White
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
     str_sheffield_supertram_standard_stagecoach_white_train_group_name: Sheffield
-      Supertram - {SILVER}1-car{BLACK} - {GOLD}Stagecoach White
-    str_sheffield_supertram_standard_stagecoach_white_train_nested_name: '{SILVER}1-car{BLACK}
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
+    str_sheffield_supertram_standard_stagecoach_white_train_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Stagecoach White'
-- id: 1100
+- id: null
   vehicle: sheffield_supertram
   profile: standard
   livery: stagecoach blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 130
@@ -47320,14 +47324,14 @@ variants:
       - {GOLD}London Underground Red Roof'
     str_lu_1938_default_london_underground__red_roof__tram_name: London Underground
       1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Red Roof
-- id: 1106
+- id: null
   vehicle: lu_1938
   profile: default
   livery: london underground (grey roof)
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 141
@@ -47578,14 +47582,14 @@ variants:
       - {SILVER}2-car{BLACK} - {GOLD}Lewisham Shopping Centre advert
     str_b90_single_lewisham_shopping_centre_advert_train_nested_name: '{SILVER}2-car{BLACK}
       - {GOLD}Lewisham Shopping Centre advert'
-- id: 1116
+- id: null
   vehicle: b90
   profile: double
   livery: dlr blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47602,14 +47606,14 @@ variants:
     str_b90_double_dlr_blue_train_group_name: DLR B90 Stock - {SILVER}4-car{BLACK}
       - {GOLD}DLR Blue
     str_b90_double_dlr_blue_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
-- id: 1117
+- id: null
   vehicle: b90
   profile: double
   livery: dlr turquoise
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47627,14 +47631,14 @@ variants:
       - {GOLD}DLR Turquoise
     str_b90_double_dlr_turquoise_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
       Turquoise'
-- id: 1118
+- id: null
   vehicle: b90
   profile: double
   livery: dlr red (red front)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47652,14 +47656,14 @@ variants:
       - {GOLD}DLR Red Red Front
     str_b90_double_dlr_red__red_front__train_nested_name: '{SILVER}4-car{BLACK} -
       {GOLD}DLR Red Red Front'
-- id: 1119
+- id: null
   vehicle: b90
   profile: double
   livery: general electric advert
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47677,14 +47681,14 @@ variants:
       - {GOLD}General Electric advert
     str_b90_double_general_electric_advert_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}General Electric advert'
-- id: 1120
+- id: null
   vehicle: b90
   profile: double
   livery: dlr red (black front)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47702,14 +47706,14 @@ variants:
       - {GOLD}DLR Red Black Front
     str_b90_double_dlr_red__black_front__train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}DLR Red Black Front'
-- id: 1121
+- id: null
   vehicle: b90
   profile: double
   livery: london olympics
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47729,14 +47733,14 @@ variants:
       - {GOLD}London Olympics
     str_b90_double_london_olympics_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}London
       Olympics'
-- id: 1122
+- id: null
   vehicle: b90
   profile: double
   livery: dlr red, pride
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47754,14 +47758,14 @@ variants:
       - {GOLD}DLR Red Pride
     str_b90_double_dlr_red__pride_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR
       Red Pride'
-- id: 1123
+- id: null
   vehicle: b90
   profile: double
   livery: tour de france advert
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47779,14 +47783,14 @@ variants:
       - {GOLD}Tour De France advert
     str_b90_double_tour_de_france_advert_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}Tour De France advert'
-- id: 1124
+- id: null
   vehicle: b90
   profile: double
   livery: lewisham shopping centre advert
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -47804,14 +47808,14 @@ variants:
       - {SILVER}4-car{BLACK} - {GOLD}Lewisham Shopping Centre advert
     str_b90_double_lewisham_shopping_centre_advert_train_nested_name: '{SILVER}4-car{BLACK}
       - {GOLD}Lewisham Shopping Centre advert'
-- id: 1125
+- id: null
   vehicle: b90
   profile: triple
   livery: dlr blue
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47828,14 +47832,14 @@ variants:
     str_b90_triple_dlr_blue_train_group_name: DLR B90 Stock - {SILVER}6-car{BLACK}
       - {GOLD}DLR Blue
     str_b90_triple_dlr_blue_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR Blue'
-- id: 1126
+- id: null
   vehicle: b90
   profile: triple
   livery: dlr turquoise
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47853,14 +47857,14 @@ variants:
       - {GOLD}DLR Turquoise
     str_b90_triple_dlr_turquoise_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
       Turquoise'
-- id: 1127
+- id: null
   vehicle: b90
   profile: triple
   livery: dlr red (red front)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47878,14 +47882,14 @@ variants:
       - {GOLD}DLR Red Red Front
     str_b90_triple_dlr_red__red_front__train_nested_name: '{SILVER}6-car{BLACK} -
       {GOLD}DLR Red Red Front'
-- id: 1128
+- id: null
   vehicle: b90
   profile: triple
   livery: general electric advert
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47903,14 +47907,14 @@ variants:
       - {GOLD}General Electric advert
     str_b90_triple_general_electric_advert_train_nested_name: '{SILVER}6-car{BLACK}
       - {GOLD}General Electric advert'
-- id: 1129
+- id: null
   vehicle: b90
   profile: triple
   livery: dlr red (black front)
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47928,14 +47932,14 @@ variants:
       - {GOLD}DLR Red Black Front
     str_b90_triple_dlr_red__black_front__train_nested_name: '{SILVER}6-car{BLACK}
       - {GOLD}DLR Red Black Front'
-- id: 1130
+- id: null
   vehicle: b90
   profile: triple
   livery: london olympics
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47955,14 +47959,14 @@ variants:
       - {GOLD}London Olympics
     str_b90_triple_london_olympics_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}London
       Olympics'
-- id: 1131
+- id: null
   vehicle: b90
   profile: triple
   livery: dlr red, pride
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -47980,14 +47984,14 @@ variants:
       - {GOLD}DLR Red Pride
     str_b90_triple_dlr_red__pride_train_nested_name: '{SILVER}6-car{BLACK} - {GOLD}DLR
       Red Pride'
-- id: 1132
+- id: null
   vehicle: b90
   profile: triple
   livery: tour de france advert
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -48005,14 +48009,14 @@ variants:
       - {GOLD}Tour De France advert
     str_b90_triple_tour_de_france_advert_train_nested_name: '{SILVER}6-car{BLACK}
       - {GOLD}Tour De France advert'
-- id: 1133
+- id: null
   vehicle: b90
   profile: triple
   livery: lewisham shopping centre advert
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -48250,14 +48254,14 @@ variants:
       2009 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground
     str_lu_2009_2009_8_london_underground_tram_name: London Underground 2009 Stock
       - {SILVER}8-car{BLACK} - {GOLD}London Underground
-- id: 1142
+- id: null
   vehicle: birmingham_urbos
   profile: single
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 150
@@ -48323,14 +48327,14 @@ variants:
       - {SILVER}1-car{BLACK}
     str_blackpool_standard147_standard_default_train_group_name: Blackpool Standard
       147 - {SILVER}1-car{BLACK}
-- id: 1145
+- id: null
   vehicle: lu_1995
   profile: '1995_6'
   livery: london underground
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 141
@@ -48482,10 +48486,10 @@ variants:
   identifier: nottingham_citadis_standard_default_train
   name_string: str_nottingham_citadis_standard_default_train_name
   strings:
+    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
     str_nottingham_citadis_standard_default_train_name: Nottingham Citadis 302 - {SILVER}5-car{BLACK}
     str_nottingham_citadis_standard_default_train_group_name: Nottingham Citadis 302
       - {SILVER}5-car{BLACK}
-    str_nottingham_citadis_standard_default_train_nested_name: '{SILVER}5-car{BLACK}'
 - id: 1151
   vehicle: dlr_p86
   profile: default
@@ -48507,7 +48511,7 @@ variants:
   identifier: dlr_p86_default_dlr_blue_train
   name_string: str_dlr_p86_default_dlr_blue_train_name
   strings:
-    str_b90_double_dlr_blue_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
+    str_b90_double_dlr_blue_tram_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Blue'
     str_dlr_p86_default_dlr_blue_train_name: Docklands Light Railway P86 - {SILVER}4-car{BLACK}
       - {GOLD}DLR Blue
     str_dlr_p86_default_dlr_blue_train_group_name: Docklands Light Railway P86 - {SILVER}4-car{BLACK}
@@ -48534,14 +48538,14 @@ variants:
     str_glasgow_wooden_standard_default_train_nested_name: '{SILVER}1-car{BLACK}'
     str_london_cr4000_standard_default_train_name: London CR4000 - {SILVER}1-car{BLACK}
     str_london_cr4000_standard_default_train_group_name: London CR4000 - {SILVER}1-car{BLACK}
-- id: 1153
+- id: null
   vehicle: b23
   profile: default
   livery: dlr turquoise
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 792
@@ -48584,14 +48588,14 @@ variants:
     str_metrolink_t68_single_default_train_nested_name: '{SILVER}2-car{BLACK}'
     str_metrolink_m5000_single_default_train_name: Metrolink M5000 - {SILVER}2-car{BLACK}
     str_metrolink_m5000_single_default_train_group_name: Metrolink M5000 - {SILVER}2-car{BLACK}
-- id: 1155
+- id: null
   vehicle: metrolink_m5000
   profile: double
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 130
@@ -48606,14 +48610,14 @@ variants:
     str_metrolink_m5000_double_default_train_name: Metrolink M5000 - {SILVER}4-car{BLACK}
     str_metrolink_m5000_double_default_train_group_name: Metrolink M5000 - {SILVER}4-car{BLACK}
     str_metrolink_m5000_double_default_train_nested_name: '{SILVER}4-car{BLACK}'
-- id: 1156
+- id: null
   vehicle: london_variobahn
   profile: standard
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 120
@@ -48655,14 +48659,14 @@ variants:
     str_b07_single_dlr_red_train_group_name: DLR B07 Stock - {SILVER}2-car{BLACK}
       - {GOLD}DLR Red
     str_b07_single_dlr_red_train_nested_name: '{SILVER}2-car{BLACK} - {GOLD}DLR Red'
-- id: 1158
+- id: null
   vehicle: b07
   profile: double
   livery: dlr red
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 568
@@ -48679,14 +48683,14 @@ variants:
     str_b07_double_dlr_red_train_group_name: DLR B07 Stock - {SILVER}4-car{BLACK}
       - {GOLD}DLR Red
     str_b07_double_dlr_red_train_nested_name: '{SILVER}4-car{BLACK} - {GOLD}DLR Red'
-- id: 1159
+- id: null
   vehicle: b07
   profile: triple
   livery: dlr red
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 852
@@ -49133,3 +49137,171 @@ variants:
       - {GOLD}Blackpool Transport'
     str_blackpool_flexity_default_blackpool_transport_tram_v2_name: Blackpool Bombardier
       Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
+- id: null
+  vehicle: sheffield_supertram
+  profile: standard
+  livery: stagecoach blue
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: false
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1006_sheffield_supertram_standard_stagecoach_blue_train_v2.gnml
+  identifier: sheffield_supertram_standard_stagecoach_blue_train_v2
+  name_string: str_sheffield_supertram_standard_stagecoach_blue_train_v2_name
+  strings:
+    str_sheffield_supertram_standard_stagecoach_blue_train_v2_name: Sheffield Supertram
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_train_v2_group_name: Sheffield
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
+- id: 1070
+  vehicle: sheffield_supertram
+  profile: standard
+  livery: stagecoach blue
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1070_sheffield_supertram_standard_stagecoach_blue_tram_v2.gnml
+  identifier: sheffield_supertram_standard_stagecoach_blue_tram_v2
+  name_string: str_sheffield_supertram_standard_stagecoach_blue_tram_v2_name
+  strings:
+    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_name: Sheffield Supertram
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_group_name: Sheffield
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
+- id: 1078
+  vehicle: lu_1938
+  profile: default
+  livery: london underground (grey roof)
+  vehicle_type: train
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1078_lu_1938_default_london_underground__grey_roof__train_v3.gnml
+  identifier: lu_1938_default_london_underground__grey_roof__train_v3
+  name_string: str_lu_1938_default_london_underground__grey_roof__train_v3_name
+  strings:
+    str_lu_1938_default_london_underground__grey_roof__train_v3_name: London Underground
+      1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Grey Roof
+    str_lu_1938_default_london_underground__grey_roof__train_v3_group_name: London
+      Underground 1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Grey
+      Roof
+    str_lu_1938_default_london_underground__grey_roof__train_v3_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground Grey Roof'
+- id: 1100
+  vehicle: lu_1938
+  profile: default
+  livery: london underground (grey roof)
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 8
+    lengths:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1100_lu_1938_default_london_underground__grey_roof__tram_v2.gnml
+  identifier: lu_1938_default_london_underground__grey_roof__tram_v2
+  name_string: str_lu_1938_default_london_underground__grey_roof__tram_v2_name
+  strings:
+    str_lu_1938_default_london_underground__grey_roof__train_v3_group_name: London
+      Underground 1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Grey
+      Roof
+    str_lu_1938_default_london_underground__grey_roof__train_v3_nested_name: '{SILVER}8-car{BLACK}
+      - {GOLD}London Underground Grey Roof'
+    str_lu_1938_default_london_underground__grey_roof__tram_v2_name: London Underground
+      1938 Stock - {SILVER}8-car{BLACK} - {GOLD}London Underground Grey Roof
+- id: 1106
+  vehicle: lu_1995
+  profile: '1995_6'
+  livery: london underground
+  vehicle_type: train
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1106_lu_1995_1995_6_london_underground_train_v3.gnml
+  identifier: lu_1995_1995_6_london_underground_train_v3
+  name_string: str_lu_1995_1995_6_london_underground_train_v3_name
+  strings:
+    str_lu_1996_1996_6_london_underground_train_v2_nested_name: '{SILVER}6-car{BLACK}
+      - {GOLD}London Underground'
+    str_lu_1995_1995_6_london_underground_train_v3_name: London Underground 1995 Stock
+      - {SILVER}6-car{BLACK} - {GOLD}London Underground
+    str_lu_1995_1995_6_london_underground_train_v3_group_name: London Underground
+      1995 Stock - {SILVER}6-car{BLACK} - {GOLD}London Underground
+- id: 1142
+  vehicle: lu_1995
+  profile: '1995_6'
+  livery: london underground
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 141
+    articulated_count: 6
+    lengths:
+    - 8
+    - 8
+    - 8
+  archive: generated_variants/1142_lu_1995_1995_6_london_underground_tram_v2.gnml
+  identifier: lu_1995_1995_6_london_underground_tram_v2
+  name_string: str_lu_1995_1995_6_london_underground_tram_v2_name
+  strings:
+    str_lu_1996_1996_6_london_underground_train_v2_nested_name: '{SILVER}6-car{BLACK}
+      - {GOLD}London Underground'
+    str_lu_1995_1995_6_london_underground_train_v3_group_name: London Underground
+      1995 Stock - {SILVER}6-car{BLACK} - {GOLD}London Underground
+    str_lu_1995_1995_6_london_underground_tram_v2_name: London Underground 1995 Stock
+      - {SILVER}6-car{BLACK} - {GOLD}London Underground

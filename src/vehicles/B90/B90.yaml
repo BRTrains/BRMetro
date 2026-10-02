@@ -33,7 +33,6 @@ profiles:
   num_vehicles: 4
   capacity: 568
   types:
-  - train
   - tram
   name: 4-car Double Unit
   power: 1200
@@ -45,7 +44,6 @@ profiles:
   num_vehicles: 6
   capacity: 852
   types:
-  - train
   - tram
   name: 6-car Triple Unit
   power: 1800
