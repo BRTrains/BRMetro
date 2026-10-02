@@ -44380,12 +44380,12 @@ variants:
   identifier: sheffield_supertram_standard_stagecoach_white_tram
   name_string: str_sheffield_supertram_standard_stagecoach_white_tram_name
   strings:
+    str_sheffield_supertram_standard_stagecoach_white_train_v2_group_name: Sheffield
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
+    str_sheffield_supertram_standard_stagecoach_white_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach White'
     str_sheffield_supertram_standard_stagecoach_white_tram_name: Sheffield Supertram
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
-    str_sheffield_supertram_standard_stagecoach_white_tram_group_name: Sheffield Supertram
-      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
-    str_sheffield_supertram_standard_stagecoach_white_tram_nested_name: '{SILVER}3-car{BLACK}
-      - {GOLD}Stagecoach White'
 - id: null
   vehicle: sheffield_supertram
   profile: standard
@@ -45320,9 +45320,9 @@ variants:
   identifier: birmingham_urbos_single_default_tram
   name_string: str_birmingham_urbos_single_default_tram_name
   strings:
+    str_birmingham_urbos_single_default_train_v2_group_name: Birmingham Urbos - {SILVER}5-car{BLACK}
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
     str_birmingham_urbos_single_default_tram_name: Birmingham Urbos - {SILVER}5-car{BLACK}
-    str_birmingham_urbos_single_default_tram_group_name: Birmingham Urbos - {SILVER}5-car{BLACK}
-    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
 - id: 1043
   vehicle: edinburgh_urbos
   profile: single
@@ -45501,7 +45501,7 @@ variants:
   identifier: nottingham_citadis_standard_default_tram
   name_string: str_nottingham_citadis_standard_default_tram_name
   strings:
-    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
     str_nottingham_citadis_standard_default_train_group_name: Nottingham Citadis 302
       - {SILVER}5-car{BLACK}
     str_nottingham_citadis_standard_default_tram_name: Nottingham Citadis 302 - {SILVER}5-car{BLACK}
@@ -45549,12 +45549,12 @@ variants:
   identifier: b23_default_dlr_turquoise_tram
   name_string: str_b23_default_dlr_turquoise_tram_name
   strings:
+    str_b23_default_dlr_turquoise_train_v2_group_name: DLR B23 Stock - {SILVER}5-car{BLACK}
+      - {GOLD}DLR Turquoise
+    str_b23_default_dlr_turquoise_train_v2_nested_name: '{SILVER}5-car{BLACK} - {GOLD}DLR
+      Turquoise'
     str_b23_default_dlr_turquoise_tram_name: DLR B23 Stock - {SILVER}5-car{BLACK}
       - {GOLD}DLR Turquoise
-    str_b23_default_dlr_turquoise_tram_group_name: DLR B23 Stock - {SILVER}5-car{BLACK}
-      - {GOLD}DLR Turquoise
-    str_b23_default_dlr_turquoise_tram_nested_name: '{SILVER}5-car{BLACK} - {GOLD}DLR
-      Turquoise'
 - id: 1052
   vehicle: metrolink_m5000
   profile: single
@@ -45621,9 +45621,10 @@ variants:
   identifier: london_variobahn_standard_default_tram
   name_string: str_london_variobahn_standard_default_tram_name
   strings:
-    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_london_variobahn_standard_default_train_v2_group_name: London Variobahn -
+      {SILVER}5-car{BLACK}
     str_london_variobahn_standard_default_tram_name: London Variobahn - {SILVER}5-car{BLACK}
-    str_london_variobahn_standard_default_tram_group_name: London Variobahn - {SILVER}5-car{BLACK}
 - id: 1055
   vehicle: b07
   profile: single
@@ -46476,7 +46477,7 @@ variants:
   identifier: br_399_default_stagecoach_blue_train_v2
   name_string: str_br_399_default_stagecoach_blue_train_v2_name
   strings:
-    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_nested_name: '{SILVER}3-car{BLACK}
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Stagecoach Blue'
     str_br_399_default_stagecoach_blue_train_v2_name: Class 399 "Sheffield Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
@@ -46502,7 +46503,7 @@ variants:
   identifier: br_399_default_stagecoach_blue_tram_v2
   name_string: str_br_399_default_stagecoach_blue_tram_v2_name
   strings:
-    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_nested_name: '{SILVER}3-car{BLACK}
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_nested_name: '{SILVER}3-car{BLACK}
       - {GOLD}Stagecoach Blue'
     str_br_399_default_stagecoach_blue_train_v2_group_name: Class 399 "Sheffield Citylink"
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
@@ -48486,7 +48487,7 @@ variants:
   identifier: nottingham_citadis_standard_default_train
   name_string: str_nottingham_citadis_standard_default_train_name
   strings:
-    str_birmingham_urbos_single_default_tram_nested_name: '{SILVER}5-car{BLACK}'
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
     str_nottingham_citadis_standard_default_train_name: Nottingham Citadis 302 - {SILVER}5-car{BLACK}
     str_nottingham_citadis_standard_default_train_group_name: Nottingham Citadis 302
       - {SILVER}5-car{BLACK}
@@ -49183,12 +49184,12 @@ variants:
   identifier: sheffield_supertram_standard_stagecoach_blue_tram_v2
   name_string: str_sheffield_supertram_standard_stagecoach_blue_tram_v2_name
   strings:
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_group_name: Sheffield
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
     str_sheffield_supertram_standard_stagecoach_blue_tram_v2_name: Sheffield Supertram
       - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
-    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_group_name: Sheffield
-      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
-    str_sheffield_supertram_standard_stagecoach_blue_tram_v2_nested_name: '{SILVER}3-car{BLACK}
-      - {GOLD}Stagecoach Blue'
 - id: 1078
   vehicle: lu_1938
   profile: default
@@ -49305,3 +49306,134 @@ variants:
       1995 Stock - {SILVER}6-car{BLACK} - {GOLD}London Underground
     str_lu_1995_1995_6_london_underground_tram_v2_name: London Underground 1995 Stock
       - {SILVER}6-car{BLACK} - {GOLD}London Underground
+- id: 1006
+  vehicle: sheffield_supertram
+  profile: standard
+  livery: stagecoach white
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1006_sheffield_supertram_standard_stagecoach_white_train_v2.gnml
+  identifier: sheffield_supertram_standard_stagecoach_white_train_v2
+  name_string: str_sheffield_supertram_standard_stagecoach_white_train_v2_name
+  strings:
+    str_sheffield_supertram_standard_stagecoach_white_train_v2_name: Sheffield Supertram
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
+    str_sheffield_supertram_standard_stagecoach_white_train_v2_group_name: Sheffield
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach White
+    str_sheffield_supertram_standard_stagecoach_white_train_v2_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach White'
+- id: 1099
+  vehicle: sheffield_supertram
+  profile: standard
+  livery: stagecoach blue
+  vehicle_type: train
+  generation: 3
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 130
+    articulated_count: 3
+    lengths:
+    - 5
+    - 5
+    - 5
+  archive: generated_variants/1099_sheffield_supertram_standard_stagecoach_blue_train_v3.gnml
+  identifier: sheffield_supertram_standard_stagecoach_blue_train_v3
+  name_string: str_sheffield_supertram_standard_stagecoach_blue_train_v3_name
+  strings:
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_name: Sheffield Supertram
+      - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_group_name: Sheffield
+      Supertram - {SILVER}3-car{BLACK} - {GOLD}Stagecoach Blue
+    str_sheffield_supertram_standard_stagecoach_blue_train_v3_nested_name: '{SILVER}3-car{BLACK}
+      - {GOLD}Stagecoach Blue'
+- id: 1116
+  vehicle: birmingham_urbos
+  profile: single
+  livery: default
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 150
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1116_birmingham_urbos_single_default_train_v2.gnml
+  identifier: birmingham_urbos_single_default_train_v2
+  name_string: str_birmingham_urbos_single_default_train_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_name: Birmingham Urbos - {SILVER}5-car{BLACK}
+    str_birmingham_urbos_single_default_train_v2_group_name: Birmingham Urbos - {SILVER}5-car{BLACK}
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+- id: 1117
+  vehicle: b23
+  profile: default
+  livery: dlr turquoise
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 792
+    articulated_count: 5
+    lengths:
+    - 6
+    - 6
+    - 6
+    - 6
+    - 6
+  archive: generated_variants/1117_b23_default_dlr_turquoise_train_v2.gnml
+  identifier: b23_default_dlr_turquoise_train_v2
+  name_string: str_b23_default_dlr_turquoise_train_v2_name
+  strings:
+    str_b23_default_dlr_turquoise_train_v2_name: DLR B23 Stock - {SILVER}5-car{BLACK}
+      - {GOLD}DLR Turquoise
+    str_b23_default_dlr_turquoise_train_v2_group_name: DLR B23 Stock - {SILVER}5-car{BLACK}
+      - {GOLD}DLR Turquoise
+    str_b23_default_dlr_turquoise_train_v2_nested_name: '{SILVER}5-car{BLACK} - {GOLD}DLR
+      Turquoise'
+- id: 1118
+  vehicle: london_variobahn
+  profile: standard
+  livery: default
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 120
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+  archive: generated_variants/1118_london_variobahn_standard_default_train_v2.gnml
+  identifier: london_variobahn_standard_default_train_v2
+  name_string: str_london_variobahn_standard_default_train_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_london_variobahn_standard_default_train_v2_name: London Variobahn - {SILVER}5-car{BLACK}
+    str_london_variobahn_standard_default_train_v2_group_name: London Variobahn -
+      {SILVER}5-car{BLACK}

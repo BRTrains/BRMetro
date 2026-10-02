@@ -21,6 +21,7 @@ profiles:
   num_vehicles: 5
   capacity: 120
   types:
+  - train
   - tram
   name: Variobahn Tram
 liveries:

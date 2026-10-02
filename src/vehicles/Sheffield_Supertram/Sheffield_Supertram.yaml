@@ -23,6 +23,7 @@ profiles:
   num_vehicles: 3
   capacity: 130
   types:
+  - train
   - tram
   name: 3
   sprite_override:
