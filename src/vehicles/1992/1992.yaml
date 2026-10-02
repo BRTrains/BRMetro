@@ -1,7 +1,7 @@
 info:
   identifier: lu_1992
   name: London Underground 1992 Stock
-  operator: LU
+  operator: London Underground
 stats:
   vehicle_type: train
   train_type: multiple_unit
@@ -54,7 +54,7 @@ liveries:
   - four_car
   - eight_car
   special_tags:
-  - operator/LU
+  - operator/London Underground
 - name: Network South East
   profiles:
   - four_car

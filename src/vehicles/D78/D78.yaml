@@ -1,7 +1,7 @@
 info:
   identifier: d78
   name: London Underground D78 Stock
-  operator: LU
+  operator: London Underground
 stats:
   vehicle_type: train
   train_type: multiple_unit

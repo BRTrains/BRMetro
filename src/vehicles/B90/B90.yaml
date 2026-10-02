@@ -1,7 +1,7 @@
 info:
   identifier: b90
   name: DLR B90 Stock
-  operator: DLR
+  operator: Docklands Light Railway
 stats:
   vehicle_type: tram
   train_type: multiple_unit
