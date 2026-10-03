@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "3b6b75a9d7b84fdf563f88209d6caae23b9e4c54",
-  "generated_at": "2026-10-03T00:13:20.808028Z",
+  "generated_at": "2026-10-03T00:22:24.319673Z",
   "liveries": [
     {
       "name": "Default",
@@ -507,8 +507,8 @@
       "special_tags": [],
       "spritesheet": null,
       "variants": [
-        "edinburgh_urbos_single_default_train",
-        "edinburgh_urbos_single_default_tram"
+        "edinburgh_urbos_single_default_train_v2",
+        "edinburgh_urbos_single_default_tram_v2"
       ],
       "vehicle_identifier": "edinburgh_urbos"
     },
@@ -1768,7 +1768,7 @@
     },
     {
       "identifier": "single",
-      "name": "1-car Urbos",
+      "name": "5-car Urbos",
       "resolved": {
         "capacity": 150,
         "cargo_classes": [
@@ -1776,14 +1776,14 @@
         ],
         "default_cargo_type": null,
         "introduction_date": "date(2014, 1, 1)",
-        "num_vehicles": 1,
+        "num_vehicles": 5,
         "power": 800,
         "speed": 75,
         "sprite_pattern": [
           1,
           3,
+          5,
           4,
-          3,
           2
         ],
         "track_type": [
@@ -1798,8 +1798,8 @@
       "sprite_group": null,
       "spritesheet": null,
       "variants": [
-        "edinburgh_urbos_single_default_train",
-        "edinburgh_urbos_single_default_tram"
+        "edinburgh_urbos_single_default_train_v2",
+        "edinburgh_urbos_single_default_tram_v2"
       ],
       "vehicle_identifier": "edinburgh_urbos"
     },
@@ -39701,8 +39701,8 @@
         "sprite_pattern": [
           1,
           3,
+          5,
           4,
-          3,
           2
         ]
       },
@@ -39715,14 +39715,14 @@
       },
       "profile": {
         "identifier": "single",
-        "name": "1-car Urbos"
+        "name": "5-car Urbos"
       },
       "purchase": {
         "file": {
           "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_edinburgh_urbos_Edinburgh_Urbos_0_Edinburgh_Urbos_32_Edinburgh_Urbos_48_Edinburgh_Urbos_32_Edinburgh_Urbos_16.png"
+          "path": "WorkingData/BRMetro/purchase_edinburgh_urbos_Edinburgh_Urbos_0_Edinburgh_Urbos_32_Edinburgh_Urbos_64_Edinburgh_Urbos_48_Edinburgh_Urbos_16.png"
         },
-        "name": "spriteset_edinburgh_urbos_single_default_train_purchase",
+        "name": "spriteset_edinburgh_urbos_single_default_train_v2_purchase",
         "rows": [
           {
             "flags": [],
@@ -39748,515 +39748,7 @@
         "source": null
       },
       "sprite_id": {
-        "generation": 1,
-        "id": 1143
-      },
-      "spritesets": [
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
-          },
-          "length": 3,
-          "order": 0,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y0",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_train_0",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 0
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
-          },
-          "length": 3,
-          "order": 1,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_train_1",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 32
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
-          },
-          "length": 3,
-          "order": 2,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y48",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_train_2",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 48
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
-          },
-          "length": 3,
-          "order": 3,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_train_1",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 32
-        },
-        {
-          "file": {
-            "kind": "spritesheet",
-            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
-          },
-          "length": 3,
-          "order": 4,
-          "rows": [
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 0,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 9,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 22,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 36,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 15,
-              "left_x": 49,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 8
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 58,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            },
-            {
-              "flags": [],
-              "height": 13,
-              "left_x": 71,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
-            }
-          ],
-          "source_name": "spriteset_y16",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_train_3",
-          "template": "tmpl_tram_3",
-          "x": 0,
-          "y": 16
-        }
-      ],
-      "variant": {
-        "display_name": "Edinburgh Urbos - {SILVER}1-car{BLACK}",
-        "graphics_emitted": true,
-        "identifier": "edinburgh_urbos_single_default_train",
-        "nml_filename": {
-          "kind": "nml",
-          "path": "edinburgh_urbos_single_default_train.gnml"
-        },
-        "vehicle_type": "TRAIN"
-      },
-      "vehicle": {
-        "identifier": "edinburgh_urbos",
-        "name": "Edinburgh Urbos"
-      }
-    },
-    {
-      "formation": {
-        "part_count": 5,
-        "sprite_pattern": [
-          1,
-          3,
-          4,
-          3,
-          2
-        ]
-      },
-      "lighting": {
-        "overlay": null,
-        "transparent": null
-      },
-      "livery": {
-        "name": "Default"
-      },
-      "profile": {
-        "identifier": "single",
-        "name": "1-car Urbos"
-      },
-      "purchase": {
-        "file": {
-          "kind": "purchase_spritesheet",
-          "path": "WorkingData/BRMetro/purchase_edinburgh_urbos_Edinburgh_Urbos_0_Edinburgh_Urbos_32_Edinburgh_Urbos_48_Edinburgh_Urbos_32_Edinburgh_Urbos_16.png"
-        },
-        "name": "spriteset_edinburgh_urbos_single_default_tram_purchase",
-        "rows": [
-          {
-            "flags": [],
-            "height": 13,
-            "left_x": 0,
-            "offset_x": -25,
-            "offset_y": -8,
-            "upper_y": 0,
-            "width": 128
-          }
-        ],
-        "template": "tmpl_purchase",
-        "x": 0,
-        "y": 0
-      },
-      "source_restrictions": {
-        "livery_profiles": [],
-        "livery_spritesheet": null,
-        "profile_spritesheet": null
-      },
-      "sprite_group": {
-        "reused": false,
-        "source": null
-      },
-      "sprite_id": {
-        "generation": 1,
+        "generation": 2,
         "id": 1043
       },
       "spritesets": [
@@ -40342,7 +39834,7 @@
             }
           ],
           "source_name": "spriteset_y0",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_0",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_train_v2_0",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 0
@@ -40429,7 +39921,7 @@
             }
           ],
           "source_name": "spriteset_y32",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_1",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_train_v2_1",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 32
@@ -40439,12 +39931,12 @@
             "kind": "spritesheet",
             "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
           },
-          "length": 3,
+          "length": 2,
           "order": 2,
           "rows": [
             {
               "flags": [],
-              "height": 15,
+              "height": 13,
               "left_x": 0,
               "offset_x": 0,
               "offset_y": 0,
@@ -40453,35 +39945,35 @@
             },
             {
               "flags": [],
-              "height": 14,
+              "height": 13,
               "left_x": 9,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
               "height": 13,
-              "left_x": 22,
+              "left_x": 20,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
+              "width": 9
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 36,
+              "height": 13,
+              "left_x": 30,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
             },
             {
               "flags": [],
-              "height": 15,
-              "left_x": 49,
+              "height": 13,
+              "left_x": 41,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
@@ -40489,12 +39981,21 @@
             },
             {
               "flags": [],
-              "height": 14,
-              "left_x": 58,
+              "height": 13,
+              "left_x": 50,
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 12
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
             },
             {
               "flags": [],
@@ -40503,23 +40004,14 @@
               "offset_x": 0,
               "offset_y": 0,
               "upper_y": 0,
-              "width": 13
-            },
-            {
-              "flags": [],
-              "height": 14,
-              "left_x": 85,
-              "offset_x": 0,
-              "offset_y": 0,
-              "upper_y": 0,
-              "width": 12
+              "width": 10
             }
           ],
-          "source_name": "spriteset_y48",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_2",
-          "template": "tmpl_tram_3",
+          "source_name": "spriteset_y64",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_train_v2_2",
+          "template": "tmpl_tram_2",
           "x": 0,
-          "y": 48
+          "y": 64
         },
         {
           "file": {
@@ -40602,11 +40094,11 @@
               "width": 12
             }
           ],
-          "source_name": "spriteset_y32",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_1",
+          "source_name": "spriteset_y48",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_train_v2_3",
           "template": "tmpl_tram_3",
           "x": 0,
-          "y": 32
+          "y": 48
         },
         {
           "file": {
@@ -40690,19 +40182,527 @@
             }
           ],
           "source_name": "spriteset_y16",
-          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_3",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_train_v2_4",
           "template": "tmpl_tram_3",
           "x": 0,
           "y": 16
         }
       ],
       "variant": {
-        "display_name": "Edinburgh Urbos - {SILVER}1-car{BLACK}",
+        "display_name": "Edinburgh Urbos - {SILVER}5-car{BLACK}",
         "graphics_emitted": true,
-        "identifier": "edinburgh_urbos_single_default_tram",
+        "identifier": "edinburgh_urbos_single_default_train_v2",
         "nml_filename": {
           "kind": "nml",
-          "path": "edinburgh_urbos_single_default_tram.gnml"
+          "path": "edinburgh_urbos_single_default_train_v2.gnml"
+        },
+        "vehicle_type": "TRAIN"
+      },
+      "vehicle": {
+        "identifier": "edinburgh_urbos",
+        "name": "Edinburgh Urbos"
+      }
+    },
+    {
+      "formation": {
+        "part_count": 5,
+        "sprite_pattern": [
+          1,
+          3,
+          5,
+          4,
+          2
+        ]
+      },
+      "lighting": {
+        "overlay": null,
+        "transparent": null
+      },
+      "livery": {
+        "name": "Default"
+      },
+      "profile": {
+        "identifier": "single",
+        "name": "5-car Urbos"
+      },
+      "purchase": {
+        "file": {
+          "kind": "purchase_spritesheet",
+          "path": "WorkingData/BRMetro/purchase_edinburgh_urbos_Edinburgh_Urbos_0_Edinburgh_Urbos_32_Edinburgh_Urbos_64_Edinburgh_Urbos_48_Edinburgh_Urbos_16.png"
+        },
+        "name": "spriteset_edinburgh_urbos_single_default_tram_v2_purchase",
+        "rows": [
+          {
+            "flags": [],
+            "height": 13,
+            "left_x": 0,
+            "offset_x": -25,
+            "offset_y": -8,
+            "upper_y": 0,
+            "width": 128
+          }
+        ],
+        "template": "tmpl_purchase",
+        "x": 0,
+        "y": 0
+      },
+      "source_restrictions": {
+        "livery_profiles": [],
+        "livery_spritesheet": null,
+        "profile_spritesheet": null
+      },
+      "sprite_group": {
+        "reused": false,
+        "source": null
+      },
+      "sprite_id": {
+        "generation": 2,
+        "id": 1120
+      },
+      "spritesets": [
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
+          },
+          "length": 3,
+          "order": 0,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y0",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_v2_0",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
+          },
+          "length": 3,
+          "order": 1,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y32",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_v2_1",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
+          },
+          "length": 2,
+          "order": 2,
+          "rows": [
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 20,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 30,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 41,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 50,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 61,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 9
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 10
+            }
+          ],
+          "source_name": "spriteset_y64",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_v2_2",
+          "template": "tmpl_tram_2",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
+          },
+          "length": 3,
+          "order": 3,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y48",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_v2_3",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "file": {
+            "kind": "spritesheet",
+            "path": "WorkingData/BRMetro/palette/edinburgh_urbos/Edinburgh_Urbos.png"
+          },
+          "length": 3,
+          "order": 4,
+          "rows": [
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 0,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 9,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 22,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 36,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 15,
+              "left_x": 49,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 8
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 58,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            },
+            {
+              "flags": [],
+              "height": 13,
+              "left_x": 71,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 13
+            },
+            {
+              "flags": [],
+              "height": 14,
+              "left_x": 85,
+              "offset_x": 0,
+              "offset_y": 0,
+              "upper_y": 0,
+              "width": 12
+            }
+          ],
+          "source_name": "spriteset_y16",
+          "spriteset": "spriteset_edinburgh_urbos_single_default_tram_v2_4",
+          "template": "tmpl_tram_3",
+          "x": 0,
+          "y": 16
+        }
+      ],
+      "variant": {
+        "display_name": "Edinburgh Urbos - {SILVER}5-car{BLACK}",
+        "graphics_emitted": true,
+        "identifier": "edinburgh_urbos_single_default_tram_v2",
+        "nml_filename": {
+          "kind": "nml",
+          "path": "edinburgh_urbos_single_default_tram_v2.gnml"
         },
         "vehicle_type": "TRAM"
       },

@@ -18,18 +18,18 @@ dates:
   vehicle_life: 40
 profiles:
 - identifier: single
-  num_vehicles: 1
+  num_vehicles: 5
   capacity: 150
   types:
   - train
   - tram
-  name: 1-car Urbos
+  name: 5-car Urbos
 liveries:
 - name: Default
   sprite_override:
   - 1
   - 3
+  - 5
   - 4
-  - 3
   - 2
 usage: TRAM

@@ -45323,14 +45323,14 @@ variants:
     str_birmingham_urbos_single_default_train_v2_group_name: Birmingham Urbos - {SILVER}5-car{BLACK}
     str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
     str_birmingham_urbos_single_default_tram_name: Birmingham Urbos - {SILVER}5-car{BLACK}
-- id: 1043
+- id: null
   vehicle: edinburgh_urbos
   profile: single
   livery: default
   vehicle_type: tram
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 150
@@ -48280,14 +48280,14 @@ variants:
     str_glasgow_wooden_standard_default_train_nested_name: '{SILVER}1-car{BLACK}'
     str_birmingham_urbos_single_default_train_name: Birmingham Urbos - {SILVER}1-car{BLACK}
     str_birmingham_urbos_single_default_train_group_name: Birmingham Urbos - {SILVER}1-car{BLACK}
-- id: 1143
+- id: null
   vehicle: edinburgh_urbos
   profile: single
   livery: default
   vehicle_type: train
   generation: 1
   locked: false
-  active: true
+  active: false
   deprecated: false
   compatibility:
     capacity: 150
@@ -49543,3 +49543,53 @@ variants:
     str_london_variobahn_standard_default_train_v3_group_name: London Variobahn -
       {SILVER}5-car{BLACK}
     str_london_variobahn_standard_default_tram_v2_name: London Variobahn - {SILVER}5-car{BLACK}
+- id: 1043
+  vehicle: edinburgh_urbos
+  profile: single
+  livery: default
+  vehicle_type: train
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 150
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1043_edinburgh_urbos_single_default_train_v2.gnml
+  identifier: edinburgh_urbos_single_default_train_v2
+  name_string: str_edinburgh_urbos_single_default_train_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_edinburgh_urbos_single_default_train_v2_name: Edinburgh Urbos - {SILVER}5-car{BLACK}
+    str_edinburgh_urbos_single_default_train_v2_group_name: Edinburgh Urbos - {SILVER}5-car{BLACK}
+- id: 1120
+  vehicle: edinburgh_urbos
+  profile: single
+  livery: default
+  vehicle_type: tram
+  generation: 2
+  locked: false
+  active: true
+  deprecated: false
+  compatibility:
+    capacity: 150
+    articulated_count: 5
+    lengths:
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+  archive: generated_variants/1120_edinburgh_urbos_single_default_tram_v2.gnml
+  identifier: edinburgh_urbos_single_default_tram_v2
+  name_string: str_edinburgh_urbos_single_default_tram_v2_name
+  strings:
+    str_birmingham_urbos_single_default_train_v2_nested_name: '{SILVER}5-car{BLACK}'
+    str_edinburgh_urbos_single_default_train_v2_group_name: Edinburgh Urbos - {SILVER}5-car{BLACK}
+    str_edinburgh_urbos_single_default_tram_v2_name: Edinburgh Urbos - {SILVER}5-car{BLACK}
