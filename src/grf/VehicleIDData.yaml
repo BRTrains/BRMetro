@@ -49105,10 +49105,10 @@ variants:
   name_string: str_blackpool_flexity_default_blackpool_transport_train_name
   strings:
     str_blackpool_flexity_default_blackpool_transport_train_name: Blackpool Bombardier
-      Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
+      Flexity 2 - {SILVER}5-car{BLACK} - {GOLD}Blackpool Transport
     str_blackpool_flexity_default_blackpool_transport_train_group_name: Blackpool
-      Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
-    str_blackpool_flexity_default_blackpool_transport_train_nested_name: '{SILVER}Locomotive{BLACK}
+      Bombardier Flexity 2 - {SILVER}5-car{BLACK} - {GOLD}Blackpool Transport
+    str_blackpool_flexity_default_blackpool_transport_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}Blackpool Transport'
 - id: 1101
   vehicle: blackpool_flexity
@@ -49133,11 +49133,11 @@ variants:
   name_string: str_blackpool_flexity_default_blackpool_transport_tram_v2_name
   strings:
     str_blackpool_flexity_default_blackpool_transport_train_group_name: Blackpool
-      Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
-    str_blackpool_flexity_default_blackpool_transport_train_nested_name: '{SILVER}Locomotive{BLACK}
+      Bombardier Flexity 2 - {SILVER}5-car{BLACK} - {GOLD}Blackpool Transport
+    str_blackpool_flexity_default_blackpool_transport_train_nested_name: '{SILVER}5-car{BLACK}
       - {GOLD}Blackpool Transport'
     str_blackpool_flexity_default_blackpool_transport_tram_v2_name: Blackpool Bombardier
-      Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport
+      Flexity 2 - {SILVER}5-car{BLACK} - {GOLD}Blackpool Transport
 - id: null
   vehicle: sheffield_supertram
   profile: standard
