@@ -1,7 +1,7 @@
 {
   "build_success": true,
   "builder_commit": "bf714dd0d8dc267662d5d6f798498d9a6becfa8b",
-  "generated_at": "2026-10-03T00:34:29.669740Z",
+  "generated_at": "2026-10-03T00:42:37.108575Z",
   "liveries": [
     {
       "name": "Default",
@@ -1075,7 +1075,9 @@
       "name": "5-Part Set",
       "resolved": {
         "capacity": 44,
-        "cargo_classes": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
         "default_cargo_type": null,
         "introduction_date": "date(2010, 5, 1)",
         "num_vehicles": 5,
@@ -11009,7 +11011,7 @@
         }
       ],
       "variant": {
-        "display_name": "Blackpool Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport",
+        "display_name": "Blackpool Bombardier Flexity 2 - {SILVER}5-car{BLACK} - {GOLD}Blackpool Transport",
         "graphics_emitted": true,
         "identifier": "blackpool_flexity_default_blackpool_transport_train",
         "nml_filename": {
@@ -11517,7 +11519,7 @@
         }
       ],
       "variant": {
-        "display_name": "Blackpool Bombardier Flexity 2 - {SILVER}Locomotive{BLACK} - {GOLD}Blackpool Transport",
+        "display_name": "Blackpool Bombardier Flexity 2 - {SILVER}5-car{BLACK} - {GOLD}Blackpool Transport",
         "graphics_emitted": true,
         "identifier": "blackpool_flexity_default_blackpool_transport_tram_v2",
         "nml_filename": {
@@ -58426,7 +58428,9 @@
       },
       "stats": {
         "capacity": null,
-        "cargo_classes": null,
+        "cargo_classes": [
+          "CC_PASSENGERS"
+        ],
         "default_cargo_type": null,
         "design_speed": null,
         "loading_speed": null,
