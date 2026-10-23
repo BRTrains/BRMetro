@@ -14,6 +14,10 @@ legacy_fixed.png
 *.png.cacheindex
 *.png.sheetcache.json
 *.lightcache.json
+**/meta/
+*.normalization.json
+*.stagecache.json
+*.purchase.json
 
 /tools
 /src/grf/generated_variants
